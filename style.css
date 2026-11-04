@@ -175,7 +175,7 @@ h2 { font-size: clamp(1.9rem, 3.4vw, 2.8rem); margin-bottom: 1rem; }
 
 /* ---------- Work ---------- */
 /* Skills: row list */
-.skills { padding: 96px 0 24px; }
+.skills { padding: 88px 0 96px; }
 .skills-lead { color: var(--muted); max-width: 640px; margin-top: .6rem; }
 .skills-grid { margin-top: 2.2rem; border-bottom: 1px solid var(--line); }
 .skill-card { display: grid; grid-template-columns: 220px minmax(0, 1fr); column-gap: 3rem; row-gap: .5rem; padding: 1.4rem 0; border-top: 1px solid var(--line); }
@@ -198,7 +198,7 @@ h2 { font-size: clamp(1.9rem, 3.4vw, 2.8rem); margin-bottom: 1rem; }
 .certs a:hover strong { color: var(--route); border-bottom-color: var(--route); }
 .certs strong { font-size: .95rem; font-weight: 600; }
 .certs a span, .certs .cert-static span { font-size: .8rem; color: var(--muted); }
-.work { padding: 72px 0 96px; }
+.work { padding: 96px 0; }
 .work-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.6rem; margin-top: 2rem; }
 .work-card { display: flex; flex-direction: column; background: var(--card); border: 1px solid var(--line); border-radius: 20px; overflow: hidden; color: var(--ink); transition: transform .3s, box-shadow .3s; }
 .work-card:hover { transform: translateY(-4px); box-shadow: 0 30px 60px -36px rgba(27,36,51,.45); }
@@ -339,7 +339,7 @@ h2 { font-size: clamp(1.9rem, 3.4vw, 2.8rem); margin-bottom: 1rem; }
   .ch-num { font-size: 2.4rem; }
 
   .work-grid, .life-grid, .skills-grid { grid-template-columns: 1fr; }
-  .skills { padding: 64px 0 8px; }
+  .skills { padding: 64px 0 72px; }
   .case-meta { grid-template-columns: repeat(2, 1fr); }
   .case-section { grid-template-columns: 1fr; gap: 1rem; padding: 2.2rem 0; }
   .case-section > h2 { position: static; }
