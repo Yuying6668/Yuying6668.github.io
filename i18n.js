@@ -168,11 +168,11 @@ I18N.da = {
   "packed": "🧳 Pakket til rejsen",
 
   /* --- hero --- */
-  "hero.kicker": "Fra Suzhou til København",
-  "hero.title": "Jeg undersøger, hvorfor folk gør, som de gør&nbsp;— og omsætter det til <em>beslutninger</em> med BI og AI.",
+  "hero.kicker": "Data- og AI-analytiker · København",
+  "hero.title": "Jeg omsætter adfærdsdata til <em>beslutninger</em> med analyse og AI.",
   "hero.lead": "Hej, jeg hedder <strong>Rowling (Yuying) Deng</strong> – samfundsforsker af uddannelse, data- og AI-analytiker af profession. Fra en forbrugerundersøgelse i 54 byer til et panelstudie i tre bølger med 1.671 deltagere har jeg brugt min karriere på at måle, <em>hvad der egentlig driver folks valg</em>. I dag omsætter jeg det til analyse- og AI-løsninger – fra KPI-rammer til en RAG-platform med 92 % opgavenøjagtighed – der hjælper teams med at træffe beslutninger hurtigere.",
   "hero.cta": "Følg rejsen ↓",
-  "card.role": "BI- & AI-analytiker · ph.d.",
+  "card.role": "Data- og AI-analytiker · ph.d.",
   "card.loc": "📍 Københavnsområdet, Danmark",
   "card.open": "Åben for BI-, data- og AI-stillinger",
   "trait1.t": "End-to-end-analytiker",
@@ -490,11 +490,11 @@ I18N.zh = {
   "packed": "🧳 这一站带走的",
 
   /* --- hero --- */
-  "hero.kicker": "从苏州到哥本哈根",
-  "hero.title": "我研究人为什么会这样做&nbsp;——并用 BI 和 AI 把它变成<em>决策</em>。",
+  "hero.kicker": "数据与 AI 分析师 · 哥本哈根",
+  "hero.title": "我用数据分析和 AI，把行为数据变成<em>决策</em>。",
   "hero.lead": "你好，我是<strong>邓堉颖（Rowling Deng）</strong>，社会科学研究出身的数据与 AI 分析师。从覆盖 54 座城市的消费者调研，到追踪 1,671 人的三波面板研究，我一直在用数据回答<em>人们究竟为什么这样选择</em>。现在，我把这种能力转化为数据分析和 AI 解决方案：从 KPI 指标体系，到任务准确率达 92% 的 RAG 平台，帮助团队更快做出决策。",
   "hero.cta": "跟随我的旅程 ↓",
-  "card.role": "BI 与 AI 分析师 · 博士",
+  "card.role": "数据与 AI 分析师 · 博士",
   "card.loc": "📍 丹麦 · 哥本哈根地区",
   "card.open": "正在寻找 BI / 数据 / AI 分析岗位",
   "trait1.t": "端到端数据分析",
