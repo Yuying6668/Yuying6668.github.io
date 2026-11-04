@@ -139,7 +139,7 @@ h2 { font-size: clamp(1.9rem, 3.4vw, 2.8rem); margin-bottom: 1rem; }
 .map-legend li.active span { color: var(--route); }
 
 .chapters { display: flex; flex-direction: column; gap: 5rem; padding-bottom: 6rem; }
-.chapter { min-height: 70vh; opacity: .45; transition: opacity .5s; }
+.chapter { min-height: 70vh; opacity: .6; transition: opacity .35s; }
 .chapter.active { opacity: 1; }
 .ch-head { display: flex; gap: 1.1rem; align-items: flex-start; margin-bottom: 1.2rem; }
 .ch-num { font-family: var(--serif); font-size: 3.2rem; line-height: .9; color: var(--route); font-weight: 600; }

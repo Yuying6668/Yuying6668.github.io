@@ -72,11 +72,24 @@
     zoomTo(VIEWS[step] || VIEWS[0]);
   }
 
-  // Activate the chapter that crosses the middle of the viewport
-  const io = new IntersectionObserver(entries => {
-    entries.forEach(e => { if (e.isIntersecting) setStep(+e.target.dataset.step); });
-  }, { rootMargin: '-45% 0px -50% 0px' });
-  chapters.forEach(c => io.observe(c));
+  // Activate the chapter being read: the last one whose top has passed 40% of the viewport.
+  // Always resolves to one chapter, so text never stays dimmed while it is being read.
+  let ticking = false;
+  function pick() {
+    ticking = false;
+    const line = window.innerHeight * 0.4;
+    let step = 0;
+    for (const c of chapters) { if (c.getBoundingClientRect().top <= line) step = +c.dataset.step; }
+    const last = chapters[chapters.length - 1];
+    if (step === 0 && chapters.length && chapters[0].getBoundingClientRect().top < window.innerHeight) step = +chapters[0].dataset.step;
+    if (last && last.getBoundingClientRect().bottom < 0) step = +last.dataset.step;
+    setStep(step);
+  }
+  const onScroll = () => { if (!ticking) { ticking = true; requestAnimationFrame(pick); } };
+  window.addEventListener('scroll', onScroll, { passive: true });
+  window.addEventListener('resize', onScroll);
+  chapters.forEach(c => c.addEventListener('toggle', onScroll, true));
+  pick();
 
   // Click legend or city to jump to chapter
   const jump = step => document.querySelector(`.chapter[data-step="${step}"]`)?.scrollIntoView({ behavior: reduce ? 'auto' : 'smooth', block: 'start' });
