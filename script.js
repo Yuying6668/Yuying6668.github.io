@@ -7,6 +7,7 @@
   const legend = [...document.querySelectorAll('.map-legend li')];
   const cities = [...map.querySelectorAll('.city')];
   const routes = [...map.querySelectorAll('.route')];
+  const regions = [...map.querySelectorAll('.region')];
 
   // viewBox per step: [x, y, w, h]  (map is 800 x 560)
   const VIEWS = {
@@ -69,6 +70,7 @@
       c.classList.toggle('visited', s < step);
     });
     routes.forEach(r => r.classList.toggle('drawn', +r.dataset.seg < step));
+    regions.forEach(r => r.classList.toggle('active', +r.dataset.step === step));
     zoomTo(VIEWS[step] || VIEWS[0]);
   }
 

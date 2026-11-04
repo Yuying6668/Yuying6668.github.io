@@ -141,7 +141,7 @@ I18N.da = {
   "sk.title": "Det arbejder jeg med",
   "sk.kicker": "Værktøjskasse",
   "city.suzhou": "Suzhou", "city.artux": "Artux", "city.beijing": "Beijing", "city.salamanca": "Salamanca", "city.copenhagen": "København",
-  "trait3.d": "Suzhou · Artux · Beijing · Salamanca · København",
+  "trait3.d": "Fast bosat i Danmark · kræver ikke visumsponsorat",
   "hc.name": "Rowling Deng",
   /* --- shared --- */
   "status": "BI- & AI-analytiker · København · Kræver ikke sponsorat",
@@ -159,12 +159,12 @@ I18N.da = {
   "hero.cta": "Følg rejsen ↓",
   "card.role": "BI- & AI-analytiker · ph.d.",
   "card.loc": "📍 Københavnsområdet, Danmark",
-  "card.open": "Åben for stillinger inden for BI, data og AI-analyse",
+  "card.open": "Åben for BI-, data- og AI-stillinger",
   "trait1.t": "End-to-end-analytiker",
   "trait1.d": "Fra spørgeskemadesign til dashboards og AI-værktøjer",
   "trait2.t": "Ph.d. i samfundsvidenskab, Cum Laude",
   "trait2.d": "Strukturelle ligningsmodeller og panelmodeller i tre bølger",
-  "trait3.t": "5 byer · 3 lande",
+  "trait3.t": "Bosat i København",
   "trait4.t": "4 sprog",
 
   /* --- journey --- */
@@ -448,7 +448,7 @@ I18N.zh = {
   "sk.title": "我的技能",
   "sk.kicker": "能力工具箱",
   "city.suzhou": "苏州", "city.artux": "阿图什", "city.beijing": "北京", "city.salamanca": "萨拉曼卡", "city.copenhagen": "哥本哈根",
-  "trait3.d": "苏州 · 阿图什 · 北京 · 萨拉曼卡 · 哥本哈根",
+  "trait3.d": "已在丹麦定居 · 无需签证担保",
   "hc.name": "邓堉颖 Rowling Deng",
   /* --- shared --- */
   "status": "BI 与 AI 分析师 · 哥本哈根 · 无需工作签证担保",
@@ -471,7 +471,7 @@ I18N.zh = {
   "trait1.d": "从问卷设计到仪表板和 AI 工具",
   "trait2.t": "社会科学博士 · Cum Laude",
   "trait2.d": "结构方程模型与三波面板模型",
-  "trait3.t": "5 座城市 · 3 个国家",
+  "trait3.t": "定居哥本哈根",
   "trait4.t": "4 种语言",
 
   /* --- journey --- */
