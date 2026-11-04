@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>From ERP data to a sales dashboard · BI case study · Rowling Deng</title>
+  <meta name="description" content="Case study: end-to-end BI build: 2W1H requirements, bus matrix, star schema, EDW with SCD handling and incremental ETL, and a Power BI sales report." />
+  <link rel="canonical" href="https://yuying6668.github.io/work/bi-case.html" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="From ERP data to a sales dashboard · Rowling Deng" />
+  <meta property="og:description" content="Requirements → star schema → EDW & ETL → Power BI. An end-to-end BI case." />
+  <meta property="og:image" content="https://yuying6668.github.io/assets/powerbi-dashboard.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231f5f5b'/%3E%3Ctext x='32' y='43' font-family='Georgia,serif' font-size='30' font-weight='600' fill='white' text-anchor='middle'%3ERD%3C/text%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../style.css" />
+</head>
+<body class="case-bi">
+
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a href="../index.html" class="brand">Rowling Deng</a>
+    <span class="topbar-status"><span class="dot"></span>BI & AI Analyst · Copenhagen · No sponsorship needed</span>
+    <nav class="topnav">
+      <a href="../index.html#journey">Journey</a>
+      <a href="../index.html#work">Work</a>
+      <a href="../assets/Rowling_Deng_CV.pdf" class="pill-btn pill-outline" download>CV ↓</a>
+      <a href="../index.html#contact" class="pill-btn">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="case-hero">
+    <div class="wrap">
+      <a href="../index.html#work" class="back">← Back to all work</a>
+      <span class="tag tag-bi">Case study · BI &amp; data engineering</span>
+      <h1>From ERP data to a sales dashboard <em>a sales manager actually uses</em></h1>
+      <p class="lead">
+        A full BI build for a multi-market jewellery retailer: from asking the right questions, to modelling the data,
+        to an automated data warehouse, to an interactive Power BI report.
+      </p>
+      <dl class="case-meta">
+        <div><dt>Timeline</dt><dd>Jul 2025 – Feb 2026</dd></div>
+        <div><dt>Context</dt><dd>BI training case</dd></div>
+        <div><dt>User</dt><dd>Sales manager</dd></div>
+        <div><dt>Tools</dt><dd>Power BI · SQL · ETL</dd></div>
+      </dl>
+      <div class="case-links">
+        <a href="https://app.powerbi.com/view?r=eyJrIjoiYjkxNDkyZGItYTk0Yy00MzY5LTk2ZjUtZjFjMTc1YjlhZWI1IiwidCI6Ijc4MjQwMmUwLTZiODUtNGMxZC04YTQzLWZlM2VjYTQwMzdhOSIsImMiOjZ9&pageName=cf98b52841428d91d27c" target="_blank" rel="noopener" class="btn btn-primary">Interactive dashboard ↗</a>
+        <a href="https://rowlingdengyy.wixsite.com/power-bi-case" target="_blank" rel="noopener" class="btn btn-ghost">Dashboard design notes ↗</a>
+        <a href="https://rowlingdengyy.wixsite.com/data-engineering" target="_blank" rel="noopener" class="btn btn-ghost">EDW &amp; ETL notes ↗</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="case-body">
+    <div class="wrap">
+
+      <div class="case-section">
+        <h2><small>01</small>The brief</h2>
+        <div class="content">
+          <p>The sales manager needed one consistent view of <strong>sales amount, sales quantity and growth</strong>, sliced by country, product,
+            business line and time, in different currencies. The raw data sat in the company's ERP system.</p>
+          <figure class="figure">
+            <img src="../assets/powerbi-dashboard.jpg" alt="Power BI overview page: KPI cards for average selling price, quantity, total sales and YoY growth; sales by country, by subcategory, over time and by business line" width="1200" height="668" loading="lazy" />
+            <figcaption>The finished overview page: KPI cards, sales by country, product subcategory, month and business line, with year, launch-year and currency slicers.</figcaption>
+          </figure>
+        </div>
+      </div>
+
+      <div class="case-section">
+        <h2><small>02</small>Requirements → model</h2>
+        <div class="content">
+          <p>Before opening Power BI, I turned the request into a data model with a simple <strong>"2W1H"</strong> method:</p>
+          <div class="layers">
+            <div><b>Who</b><span>Sales manager: the primary user and decision maker</span></div>
+            <div><b>What</b><span>Sales amount, quantity, growth rate → <strong>measures</strong>, grouped into fact tables</span></div>
+            <div><b>How</b><span>By time, country, product, business line, currency → <strong>attributes</strong>, grouped into dimension tables</span></div>
+          </div>
+          <p>A <strong>bus matrix</strong> mapped every fact to its dimensions and showed which were <em>conformed</em> (shared across facts).
+            That became a <strong>star schema</strong>, designed first as a conceptual and then as a logical model.</p>
+        </div>
+      </div>
+
+      <div class="case-section">
+        <h2><small>03</small>The data warehouse</h2>
+        <div class="content">
+          <p>One dashboard is easy; a reliable data layer that scales to the whole organisation is the real work. I designed an enterprise data warehouse in four layers:</p>
+          <div class="layers">
+            <div><b>Staging</b><span>Raw extracts from the ERP (customers, products, sales transactions)</span></div>
+            <div><b>Dimensions</b><span>Conformed Customer and Product dimensions, with <strong>SCD Type 1</strong> for customers and <strong>SCD Type 2</strong> to keep product history</span></div>
+            <div><b>Facts</b><span>Sales transactions, loaded <strong>incrementally</strong> via a load-metadata table, so only new records are processed</span></div>
+            <div><b>Data marts</b><span>Curated views and pre-aggregated facts for the sales and marketing domains</span></div>
+          </div>
+          <div class="pipeline">
+            <div class="step"><b>1 · Extract</b><span>ERP → staging</span></div>
+            <div class="step"><b>2 · Dimensions</b><span>Load with SCD logic</span></div>
+            <div class="step"><b>3 · Facts</b><span>Incremental load</span></div>
+            <div class="step"><b>4 · Refresh</b><span>Power BI semantic model</span></div>
+          </div>
+          <p>Stored procedures handle each step, and a master package runs them in order (dimensions always before facts) inside atomic transactions to protect data integrity.</p>
+        </div>
+      </div>
+
+      <div class="case-section">
+        <h2><small>04</small>The report</h2>
+        <div class="content">
+          <p>In Power BI I cleaned and shaped the data in Power Query, set up relationships in the model view and built the report:</p>
+          <ul>
+            <li><strong>Overview:</strong> KPI cards (average selling price, quantity, total sales, YoY %) and breakdowns by country, subcategory, month and business line.</li>
+            <li><strong>Time intelligence:</strong> trends and growth over time.</li>
+            <li><strong>Sales detail:</strong> drill-down for deeper questions.</li>
+            <li><strong>Currency slicer</strong> so markets can be compared in one currency (e.g. DKK).</li>
+          </ul>
+          <div class="stack-chips">
+            <span>Power BI</span><span>DAX</span><span>Power Query</span><span>SQL</span><span>Stored procedures</span><span>Star schema</span><span>SCD 1 / 2</span><span>Incremental ETL</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="case-section">
+        <h2><small>05</small>What I took from it</h2>
+        <div class="content">
+          <p>Good BI starts with the questions, not the charts. Defining <em>who</em> needs <em>what</em>, and <em>how</em> they want to slice it, made the model,
+            the warehouse and the report fall into place, and makes the next dashboard much faster to build on the same foundation.</p>
+        </div>
+      </div>
+
+      <a class="next-case" href="mias-cruises.html">
+        <div><p>Next case study</p><h3>AI-powered Voice of Customer platform</h3></div>
+        <span class="btn btn-light">Read →</span>
+      </a>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="wrap">© 2026 Rowling (Yuying) Deng · <a href="../index.html" style="color:inherit">Back to home</a></div>
+</footer>
+</body>
+</html>

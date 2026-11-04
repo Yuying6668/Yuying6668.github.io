@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI-powered Voice of Customer platform · Case study · Rowling Deng</title>
+  <meta name="description" content="Case study: a GenAI customer-intelligence platform with RAG, hybrid retrieval and a LangGraph workflow. 92% task accuracy and 86% Recall@5 across 500+ test queries." />
+  <link rel="canonical" href="https://yuying6668.github.io/work/mias-cruises.html" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="AI-powered Voice of Customer platform · Rowling Deng" />
+  <meta property="og:description" content="RAG + LangGraph platform that turns multilingual customer feedback into cited answers. 92% task accuracy." />
+  <meta property="og:image" content="https://yuying6668.github.io/assets/og-image.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231f5f5b'/%3E%3Ctext x='32' y='43' font-family='Georgia,serif' font-size='30' font-weight='600' fill='white' text-anchor='middle'%3ERD%3C/text%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../style.css" />
+</head>
+<body>
+
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a href="../index.html" class="brand">Rowling Deng</a>
+    <span class="topbar-status"><span class="dot"></span>BI & AI Analyst · Copenhagen · No sponsorship needed</span>
+    <nav class="topnav">
+      <a href="../index.html#journey">Journey</a>
+      <a href="../index.html#work">Work</a>
+      <a href="../assets/Rowling_Deng_CV.pdf" class="pill-btn pill-outline" download>CV ↓</a>
+      <a href="../index.html#contact" class="pill-btn">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="case-hero">
+    <div class="wrap">
+      <a href="../index.html#work" class="back">← Back to all work</a>
+      <span class="tag tag-ai">Case study · AI × BI</span>
+      <h1>AI-powered Voice of Customer platform for <em>Mia's Cruises</em></h1>
+      <p class="lead">
+        Customer feedback lives everywhere: reviews, surveys, internal reports, in several languages.
+        I built a GenAI platform that brings it together with internal business data, so a team can ask a question in plain language
+        and get an answer <strong>backed by citations</strong>, not guesswork.
+      </p>
+      <dl class="case-meta">
+        <div><dt>Timeline</dt><dd>Mar 2026 – present</dd></div>
+        <div><dt>Type</dt><dd>Independent project</dd></div>
+        <div><dt>Focus</dt><dd>RAG · Agents · Evaluation</dd></div>
+        <div><dt>Status</dt><dd>Live demo available</dd></div>
+      </dl>
+      <div class="case-links">
+        <a href="https://mia-cruises-customer-insights.onrender.com/" target="_blank" rel="noopener" class="btn btn-primary">Live demo ↗</a>
+        <a href="https://github.com/Yuying6668/mias-cruises-customer-insights" target="_blank" rel="noopener" class="btn btn-ghost">Code on GitHub ↗</a>
+      </div>
+      <p class="muted small" style="margin-top:.8rem">The demo runs on a free tier, so the first load may take about 30 seconds.</p>
+    </div>
+  </section>
+
+  <section class="case-body">
+    <div class="wrap">
+
+      <div class="case-section">
+        <h2><small>01</small>The problem</h2>
+        <div class="content">
+          <p>Customer feedback was <strong>fragmented across sources and languages</strong>. That made consistent reporting and root-cause analysis slow, manual and subjective:
+            two analysts could read the same reviews and reach different conclusions.</p>
+          <p>Generic chatbots don't fix this. They answer confidently even when they're wrong, and nobody can check where the answer came from.
+            For a business decision, an answer you can't verify is worse than no answer.</p>
+        </div>
+      </div>
+
+      <div class="case-section">
+        <h2><small>02</small>The approach</h2>
+        <div class="content">
+          <p>I designed the platform around one principle: <strong>every insight must be traceable to evidence</strong>.</p>
+          <div class="pipeline">
+            <div class="step"><b>1 · Ingest</b><span>Standardise multilingual feedback batches</span></div>
+            <div class="step"><b>2 · Retrieve</b><span>Hybrid search: keyword + semantic</span></div>
+            <div class="step"><b>3 · Reason</b><span>LangGraph workflow: route → retrieve → answer</span></div>
+            <div class="step"><b>4 · Cite</b><span>Answers with citations, or abstain</span></div>
+            <div class="step"><b>5 · Act</b><span>Dashboard for insights, drafts &amp; approvals</span></div>
+          </div>
+          <ul>
+            <li><strong>Ingestion pipeline</strong> that cleans and standardises feedback from different sources and languages into versioned batches.</li>
+            <li><strong>Hybrid retrieval</strong> combines keyword and semantic search, so exact terms (a ship name, a route) and fuzzy meaning ("felt rushed at boarding") both get found.</li>
+            <li><strong>Three-agent LangGraph workflow:</strong> one agent routes the question, one retrieves evidence, one answers with citations. The model is allowed to say "I don't know".</li>
+            <li><strong>React dashboard</strong> where teams explore insights, review AI-drafted summaries and approve them before they're shared.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="case-section">
+        <h2><small>03</small>Measuring it</h2>
+        <div class="content">
+          <p>I treated the system like a product, not a demo. It was evaluated on a frozen test set, with traces in Langfuse:</p>
+          <div class="big-metrics">
+            <div><strong>92%</strong><span>task accuracy</span></div>
+            <div><strong>86%</strong><span>Top-5 retrieval recall</span></div>
+            <div><strong>500+</strong><span>test queries evaluated</span></div>
+          </div>
+          <p>Beyond accuracy, the evaluation also tracks <strong>citation correctness, abstention accuracy, P95 latency and failure rate</strong>,
+            broken down by language, route and source. That way weak spots show up before users find them.</p>
+        </div>
+      </div>
+
+      <div class="case-section">
+        <h2><small>04</small>Trust &amp; governance</h2>
+        <div class="content">
+          <p>Customer data is sensitive, especially under GDPR. Governance is built in from the start, not added at the end:</p>
+          <ul>
+            <li><strong>Redacted observability:</strong> traces store only hashes, versions, timings, evidence IDs and scores. Raw prompts, reviews and identities never go to monitoring tools.</li>
+            <li><strong>Audit logs</strong> record which workflow version and configuration produced each answer.</li>
+            <li><strong>Deletion workflow:</strong> removing an upload batch also removes it from embeddings, caches and traces.</li>
+            <li><strong>Fail-closed production mode:</strong> production can only be switched on when every governance check (e.g. DPIA, data residency, retention) has evidence.</li>
+          </ul>
+          <p class="callout">Note: the demo uses synthetic survey data. It shows how the system works and is not evidence about real passengers.</p>
+        </div>
+      </div>
+
+      <div class="case-section">
+        <h2><small>05</small>Why it matters</h2>
+        <div class="content">
+          <p>This project is where my two worlds meet. My PhD taught me that <em>why</em> people feel something matters more than how often they do something.
+            This platform lets a business read the <em>why</em> in thousands of customer voices, at scale and with evidence.</p>
+          <div class="stack-chips">
+            <span>Python</span><span>LangGraph</span><span>LangChain</span><span>RAG</span><span>Hybrid retrieval</span><span>Langfuse</span><span>PostgreSQL</span><span>React</span><span>Docker</span>
+          </div>
+        </div>
+      </div>
+
+      <a class="next-case" href="bi-case.html">
+        <div><p>Next case study</p><h3>From ERP data to a sales dashboard</h3></div>
+        <span class="btn btn-light">Read →</span>
+      </a>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="wrap">© 2026 Rowling (Yuying) Deng · <a href="../index.html" style="color:inherit">Back to home</a></div>
+</footer>
+</body>
+</html>
