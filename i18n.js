@@ -5,6 +5,21 @@
 window.I18N = window.I18N || {};
 
 I18N.da = {
+  "sk.g4.also": "Også: funnel og fastholdelse, A/B-test, Google Analytics, interessentkommunikation",
+  "sk.g4.k3": "Segmentering",
+  "sk.g4.k2": "Attribution og ROI",
+  "sk.g4.k1": "KPI-rammer",
+  "sk.g3.also": "Også: skalaudvikling, EFA / CFA, regression og mediering, eksperimenter (eye-tracking), SPSS, Mplus",
+  "sk.g3.k3": "Panelmodeller",
+  "sk.g3.k1": "Spørgeskemadesign",
+  "sk.g2.also": "Også: generativ AI, LangChain, hybrid søgning, Langfuse",
+  "sk.g2.k3": "LLM-evaluering",
+  "sk.g1.also": "Også: DAX, Power Query, Tableau, R, Excel, data- og semantisk modellering, ETL / EDW",
+  "c4.p4": "Underviste online i kommunikationsteori for <strong>500+</strong> universitetsstuderende over 20 måneder.",
+  "c4.p3.i": "Mit første indblik i dansk forskning.",
+  "c4.p3": "European Communication Conference i <strong>Aarhus</strong> (2022)",
+  "c4.p2": "Internationale konferencer: ICA, IAMCR m.fl. <strong>ICA Emerging Scholar Award</strong> 2022, tredjepræmie ved MHM 2023",
+  "c4.p1": "<strong>3</strong> fagfællebedømte artikler i 2023 samt bogkapitler og igangværende arbejde",
   "sk.cert.da": "Danskprøve, DU3 modul 3.3",
   "sk.cert": "Certificeringer · 2026",
   "life.vol.d": "Siden august 2026 har jeg undervist et pinyin-hold for seksårige på en lokal kinesisk weekendskole: legebaserede timer, øveark til hjemmet og rigtig mange farveblyanter. Børnene er også meget tålmodige med mit danske.",
@@ -208,7 +223,7 @@ I18N.da = {
   "c4.r1.q": "Afhandling: <em>Always connected and still lonely: linking WeChat use to well-being and mental health.</em> Hvilke motiver og hvilken adfærd betyder noget, hvilken vej går effekterne, og for hvem?",
   "c4.r1.did": "<li>Ejede hele dataflowet: design, indsamling, validering, analyse og rapportering</li><li>Studie 1 (<strong>1.224</strong> brugere): EFA reducerede 27 items til 5 motiver; regression og mediering viste, at tilknytning forbinder motiv og tilfredshed</li><li>Studie 2: et panel i tre bølger (<strong>1.671</strong> deltagere, 670 i alle bølger, jul. 2023 – mar. 2024) og en ny WeChat-adfærdsskala med fem faktorer, valideret med CFA og målingsinvarians</li><li>Cross-lagged panelmodeller, longitudinel mediering (social kapital) og multigruppeanalyse efter Big Five-træk i SPSS og Mplus</li>",
   "c4.r1.out": "<strong>Sobresaliente Cum Laude.</strong> Tidsforbrug havde ingen stabil effekt over tid; specifik adfærd havde (interaktion mindskede ensomhed), tillid var den centrale mekanisme, og personlighed kunne endda vende effekterne. <a href=\"work/phd-research.html\">Læs casen →</a>",
-  "c4.r2.t": "Publicering, oplæg &amp; undervisning",
+  "c4.r2.t": "Publikationer, konferencer og undervisning",
   "c4.r2.b": "<li>3 fagfællebedømte artikler i 2023, bl.a. i <em>IJERPH</em> og <em>Digital Health</em>, samt en sammenligning af aktiv brug af WeChat og Weibo og trivsel (2023) og et litteraturreview om unges brug af sociale medier (2024–25).</li><li>Oplæg på International Communication Association i Paris (2022) og Toronto (2023): <strong>ICA Emerging Scholar Award</strong>, 2022. Tredjepræmie ved Medicine, Humanity and Media International Conference, 2023.</li><li>Paper på European Communication Conference i <strong>Aarhus</strong> (2022), mit første indblik i dansk forskning.</li><li>Underviste online i kommunikationsteori for <strong>500+</strong> universitetsstuderende over 20 måneder.</li>",
 
   "c5.place": "København, Danmark · 2025 – i dag",
@@ -312,6 +327,21 @@ I18N.da = {
 };
 
 I18N.zh = {
+  "sk.g4.also": "另有：漏斗与留存分析、A/B 测试、Google Analytics、跨部门沟通",
+  "sk.g4.k3": "用户细分",
+  "sk.g4.k2": "归因与 ROI",
+  "sk.g4.k1": "KPI 指标体系",
+  "sk.g3.also": "另有：量表开发、EFA / CFA、回归与中介分析、实验设计（眼动追踪）、SPSS、Mplus",
+  "sk.g3.k3": "面板模型",
+  "sk.g3.k1": "问卷设计",
+  "sk.g2.also": "另有：生成式 AI、LangChain、混合检索、Langfuse",
+  "sk.g2.k3": "大模型评估",
+  "sk.g1.also": "另有：DAX、Power Query、Tableau、R、Excel、数据与语义建模、ETL / EDW",
+  "c4.p4": "在 20 个月里为 <strong>500+</strong> 名大学生在线讲授传播学理论。",
+  "c4.p3.i": "这是我第一次接触丹麦学术圈。",
+  "c4.p3": "丹麦<strong>奥胡斯</strong>欧洲传播学大会（2022）",
+  "c4.p2": "国际学术会议：ICA、IAMCR 等。2022 年获 <strong>ICA 新锐学者奖</strong>，2023 年获 MHM 会议三等奖",
+  "c4.p1": "2023 年发表 <strong>3</strong> 篇同行评审期刊论文，另有书章和在研成果",
   "sk.cert.da": "丹麦语考试 DU3 模块 3.3",
   "sk.cert": "证书 · 2026",
   "life.vol.d": "从 2026 年 8 月起，我在当地一所中文周末学校教一个 6 岁孩子的拼音班：用游戏化的方式上课，准备回家练习的作业单，还有很多很多彩色铅笔。孩子们对我的丹麦语也特别有耐心。",
@@ -515,7 +545,7 @@ I18N.zh = {
   "c4.r1.q": "论文：<em>Always connected and still lonely: linking WeChat use to well-being and mental health.</em>（永远在线却依然孤独：微信使用与心理健康）。哪些动机和行为真正重要？影响方向是什么？对谁起作用？",
   "c4.r1.did": "<li>负责完整的数据流程：设计、收集、验证、分析和报告</li><li>研究一（<strong>1,224</strong> 名用户）：探索性因子分析把 27 个题项归为 5 类动机；回归和中介分析显示依恋连接了动机与满意度</li><li>研究二：三波追踪面板（<strong>1,671</strong> 名参与者，670 人完成全部三波，2023.07 – 2024.03），并开发五因子微信行为量表，通过 CFA 和测量不变性检验</li><li>在 SPSS 和 Mplus 中完成交叉滞后面板模型、纵向中介（社会资本）和大五人格多组比较</li>",
   "c4.r1.out": "<strong>Sobresaliente Cum Laude。</strong>使用时长随时间没有稳定影响；具体行为则有（互动降低孤独感），信任是关键机制，人格特质甚至会让影响方向反转。<a href=\"work/phd-research.html\">查看项目详情 →</a>",
-  "c4.r2.t": "发表、学术报告与教学",
+  "c4.r2.t": "论文、学术会议与教学",
   "c4.r2.b": "<li>2023 年发表 3 篇同行评审期刊论文，包括 <em>IJERPH</em> 和 <em>Digital Health</em>；另有微信与微博主动使用和主观幸福感的比较研究（2023），以及青少年社交媒体使用的文献综述（2024–25）。</li><li>在国际传播学会（ICA）巴黎年会（2022）和多伦多年会（2023）上做报告，2022 年获 <strong>ICA 新锐学者奖</strong>；2023 年获医学、人文与媒体国际会议三等奖。</li><li>在丹麦<strong>奥胡斯</strong>的欧洲传播学大会上发表论文（2022），第一次接触丹麦学术圈。</li><li>在 20 个月里为 <strong>500+</strong> 名大学生在线讲授传播学理论。</li>",
 
   "c5.place": "丹麦哥本哈根 · 2025 – 至今",
