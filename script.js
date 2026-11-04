@@ -11,10 +11,11 @@
   // viewBox per step: [x, y, w, h]  (map is 800 x 560)
   const VIEWS = {
     0: [0, 0, 800, 560],
-    1: [560, 250, 280, 196],
-    2: [540, 230, 320, 224],
-    3: [0, 0, 800, 560],
-    4: [-50, 140, 320, 224]
+    1: [580, 267, 280, 196],   // Suzhou: east China
+    2: [450, 215, 370, 259],   // Artux: all of China, far west to east
+    3: [470, 225, 350, 245],   // Beijing
+    4: [0, 0, 800, 560],       // Salamanca: the long flight west
+    5: [-50, 140, 320, 224]    // Copenhagen: northern Europe
   };
   let current = [...VIEWS[0]], anim;
 
