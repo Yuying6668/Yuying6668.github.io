@@ -119,8 +119,8 @@ h2 { font-size: clamp(1.9rem, 3.4vw, 2.8rem); margin-bottom: 1rem; }
 .sea { fill: #f3eee5; }
 .land { fill: var(--land); stroke: #fffdf9; stroke-width: .8; stroke-linejoin: round; vector-effect: non-scaling-stroke; }
 .land.china { fill: #dccdb2; stroke: #fffdf9; stroke-width: .6; }
-.region { fill: var(--route); fill-opacity: 0; stroke: var(--route); stroke-opacity: 0; stroke-width: 1; vector-effect: non-scaling-stroke; transition: fill-opacity .6s, stroke-opacity .6s; pointer-events: none; }
-.region.active { fill-opacity: .22; stroke-opacity: .55; }
+.region { fill: var(--route); fill-opacity: 0; stroke: var(--route); stroke-opacity: 0; stroke-width: 1.4; vector-effect: non-scaling-stroke; transition: fill-opacity .6s, stroke-opacity .6s; pointer-events: none; }
+.region.active { fill-opacity: .38; stroke-opacity: .9; }
 .route-ghost { fill: none; stroke: var(--route); stroke-width: 1.4; stroke-dasharray: 3 5; opacity: .35; vector-effect: non-scaling-stroke; }
 .route { fill: none; stroke: var(--route); stroke-width: 2.6; stroke-linecap: round; stroke-dasharray: 1; stroke-dashoffset: 1; transition: stroke-dashoffset 1.2s ease; vector-effect: non-scaling-stroke; }
 .route.drawn { stroke-dashoffset: 0; }
