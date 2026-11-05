@@ -5,6 +5,7 @@
 window.I18N = window.I18N || {};
 
 I18N.da = {
+  "cs.platforms": "Spørgeskemaplatforme",
   "phd.f6": "<strong>Effektens retning.</strong> Brugere, der interagerede mere, følte sig mindre ensomme tre måneder senere.",
   "phd.f5": "<strong>Over tid.</strong> Positive følelser i bølge 1 opbygger tillid i bølge 2, som fører til mere kommunikation i bølge 3.",
   "phd.f4": "<strong>Tværsnit.</strong> Mere kommunikation opbygger social kapital, som mindsker ensomhed; brug af WeChat i hverdagen øger livstilfredsheden.",
@@ -349,6 +350,7 @@ I18N.da = {
 };
 
 I18N.zh = {
+  "cs.platforms": "问卷平台",
   "phd.f6": "<strong>影响方向。</strong>互动更多的用户，三个月后孤独感更低。",
   "phd.f5": "<strong>纵向结果。</strong>第 1 波的积极情绪提升第 2 波的信任，进而带来第 3 波更多的沟通。",
   "phd.f4": "<strong>横断面结果。</strong>沟通越多，社会资本越高，孤独感越低；把微信用于日常生活会提升生活满意度。",
