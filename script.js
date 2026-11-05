@@ -15,7 +15,7 @@
     1: [580, 267, 280, 196],   // Suzhou: east China
     2: [450, 215, 370, 259],   // Artux: all of China, far west to east
     3: [470, 225, 350, 245],   // Beijing
-    4: [0, 0, 800, 560],       // Salamanca: the long flight west
+    4: [-45, -15, 890, 623],     // Salamanca: the long flight west (padded so end labels fit)
     5: [-50, 140, 320, 224]    // Copenhagen: northern Europe
   };
   let current = [...VIEWS[0]], anim;
