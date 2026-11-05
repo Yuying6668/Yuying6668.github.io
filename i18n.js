@@ -212,7 +212,7 @@ I18N.da = {
   "c3.r1.out": "Anbefalinger om målgrupper, genrepositionering og indhold, leveret før premieren. Medforfatter til case-kapitlet om <em>Legend of the Demon Cat</em> i <em>Blue Book of China's Film &amp; TV Industry (2018)</em>. <a href=\"work/audience-insights.html\">Læs casen →</a>",
   "c3.r2.t": "Cand. i kommunikationspsykologi",
   "c3.r2.m": "Communication University of China · 2016 – 2019",
-  "c3.r2.b": "<li>Nr. <strong>1 / 11</strong> (GPA 3,92 / 4,0). Pris for fremragende speciale og udmærkelse som fremragende studerende, 2019. CCTV-legat, 2018.</li><li><strong>Eye-tracking-eksperimenter</strong> (2018–2019) om, hvordan videoformater påvirker visuel opmærksomhed: blikmønstre, fikseringstid og fordeling af opmærksomhed, omsat til anbefalinger om tydeligere brugerflader.</li><li>Undervisningsassistent på fire bachelorkurser, bl.a. kommunikationsstatistik, med <strong>350+</strong> studerende (2016–2018).</li><li>Creative Industries Summer School, University of Westminster, London (2017).</li>",
+  "c3.r2.b": "<li>Nr. <strong>1 / 11</strong> (GPA 3,92 / 4,0). Pris for fremragende speciale og udmærkelse som fremragende studerende, 2019. CCTV-legat, 2018.</li><li>Creative Industries Summer School, University of Westminster, London (2017).</li>",
 
   "c4.place": "Salamanca, Spanien · 2020 – 2025",
   "c4.title": "Hvad driver egentlig tilfredshed?",
@@ -534,7 +534,7 @@ I18N.zh = {
   "c3.r1.out": "在上映前就受众细分、类型定位和内容提出建议。与合作者在《影视蓝皮书：中国影视产业发展报告（2018）》中发表《妖猫传》案例章节。<a href=\"work/audience-insights.html\">查看项目详情 →</a>",
   "c3.r2.t": "传播心理学硕士",
   "c3.r2.m": "中国传媒大学 · 2016 – 2019",
-  "c3.r2.b": "<li>专业排名 <strong>1 / 11</strong>（GPA 3.92 / 4.0）。2019 年获优秀毕业论文奖和优秀毕业生，2018 年获 CCTV 奖学金。</li><li><strong>眼动追踪实验</strong>（2018–2019）：研究不同视频呈现形式如何影响视觉注意，分析注视轨迹、注视时长和注意分布，并据此提出更清晰的界面呈现建议。</li><li>担任四门本科课程的助教，包括传播统计学，学生共 <strong>350+</strong> 人（2016–2018）。</li><li>伦敦威斯敏斯特大学创意产业暑期学校（2017）。</li>",
+  "c3.r2.b": "<li>专业排名 <strong>1 / 11</strong>（GPA 3.92 / 4.0）。2019 年获优秀毕业论文奖和优秀毕业生，2018 年获 CCTV 奖学金。</li><li>伦敦威斯敏斯特大学创意产业暑期学校（2017）。</li>",
 
   "c4.place": "西班牙萨拉曼卡 · 2020 – 2025",
   "c4.title": "究竟是什么驱动了满意度？",
