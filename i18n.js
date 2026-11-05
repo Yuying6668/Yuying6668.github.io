@@ -178,7 +178,7 @@ I18N.da = {
   "w3.desc": "To spørgeskemaundersøgelser, en ny måleskala og et panel i tre bølger, der viser, at hvad brugerne gør, betyder mere end hvor længe de bliver.",
   "w3.title": "Ph.d.-forskning: brug af WeChat og trivsel",
   "w3.tag": "Kvantitativ forskning · 2020–2025",
-  "flow.panel": "paneldeltagere",
+  "flow.panel": "WeChat-brugere adspurgt",
   "flow.w3": "Bølge 3",
   "flow.w2": "Bølge 2",
   "flow.w1": "Bølge 1",
@@ -371,8 +371,8 @@ I18N.da = {
   "bi.s4": "Rapporten",
   "bi.s4.p": "I Power BI rensede og formede jeg data i Power Query, satte relationer op i modelvisningen og byggede rapporten:",
   "bi.s4.ul": "<li><strong>Oversigt:</strong> KPI-kort (gennemsnitlig salgspris, antal, samlet omsætning, vækst i % år for år) og opdeling efter land, underkategori, måned og forretningsområde.</li><li><strong>Tidsintelligens:</strong> tendenser og vækst over tid.</li><li><strong>Salgsdetaljer:</strong> drill-down til uddybende spørgsmål.</li><li><strong>Valutafilter</strong>, så markeder kan sammenlignes i én valuta (fx DKK).</li>",
-  "bi.s5": "Hvad jeg tog med mig",
-  "bi.s5.p": "God BI starter med spørgsmålene, ikke graferne. Da det var defineret, <em>hvem</em> der har brug for <em>hvad</em>, og <em>hvordan</em> de vil opdele det, faldt modellen, data warehouset og rapporten på plads, og det næste dashboard kan bygges meget hurtigere på samme fundament."
+  "bi.s5": "Hvad jeg leverede",
+  "bi.s5.ul": "<li><strong>Kravspecifikation:</strong> salgschefens spørgsmål omsat til mål og attributter med “2W1H”-metoden.</li><li><strong>Datamodel:</strong> en bus-matrix og et stjerneskema, fra konceptuelt til logisk design.</li><li><strong>Data warehouse:</strong> et EDW med SCD Type 1- og Type 2-historik og inkrementel, automatiseret ETL.</li><li><strong>Power BI-rapport:</strong> tre sider (overblik, tidsintelligens og salgsdetaljer), som salgsteamet kan genbruge og udbygge.</li>"
 };
 
 I18N.zh = {
@@ -549,7 +549,7 @@ I18N.zh = {
   "w3.desc": "两项问卷研究、一套新量表和三波追踪面板，证明用户<em>做什么</em>比<em>用多久</em>更重要。",
   "w3.title": "博士研究：微信使用与心理健康",
   "w3.tag": "定量研究 · 2020–2025",
-  "flow.panel": "名面板参与者",
+  "flow.panel": "名微信用户参与调查",
   "flow.w3": "第 3 波",
   "flow.w2": "第 2 波",
   "flow.w1": "第 1 波",
@@ -742,8 +742,8 @@ I18N.zh = {
   "bi.s4": "报表",
   "bi.s4.p": "在 Power BI 中，我用 Power Query 清洗和整理数据，在模型视图中建立关系，然后搭建报表：",
   "bi.s4.ul": "<li><strong>概览页</strong>：KPI 卡片（平均售价、销量、总销售额、同比增长）以及按国家、子类、月份和业务线的拆分。</li><li><strong>时间智能</strong>：随时间变化的趋势和增长。</li><li><strong>销售明细</strong>：支持下钻，回答更深入的问题。</li><li><strong>币种筛选器</strong>：可以用同一种货币（如丹麦克朗）比较不同市场。</li>",
-  "bi.s5": "我的收获",
-  "bi.s5.p": "好的 BI 始于问题，而不是图表。先想清楚<em>谁</em>需要<em>什么</em>、<em>如何</em>切分，模型、数据仓库和报表自然就水到渠成，而且下一个仪表板可以在同一个基础上更快地搭建起来。"
+  "bi.s5": "我交付了什么",
+  "bi.s5.ul": "<li><strong>需求说明：</strong>用 “2W1H” 方法把销售经理的问题拆解成度量和属性。</li><li><strong>数据模型：</strong>总线矩阵和星型模型，从概念设计到逻辑设计。</li><li><strong>数据仓库：</strong>支持 SCD Type 1 和 Type 2 历史记录的企业数据仓库，以及自动化的增量 ETL。</li><li><strong>Power BI 报表：</strong>三个页面（总览、时间智能、销售明细），销售团队可以直接复用和扩展。</li>"
 };
 
 (function () {
