@@ -5,6 +5,12 @@
 window.I18N = window.I18N || {};
 
 I18N.da = {
+  "c5.a2.b": "Jeg fastlagde indhold, struktur og designretning og arbejdede derefter sammen med en AI-kodeassistent om at skrive koden, lave udkast til de danske og kinesiske oversættelser og teste hver ændring. Resultatet er et site på tre sprog med et rejsekort, der følger scrollingen, automatiske browsertests på computer og mobil samt privatlivsvenlig statistik, udgivet på GitHub Pages.",
+  "c5.a2": "<span class=\"pub-k\">Projekt 2</span> Denne portfolio, bygget med en AI-kodeassistent",
+  "c5.a1": "<span class=\"pub-k\">Projekt 1</span> AI-baseret Voice of Customer-platform",
+  "c5.r1.out": "Evidensbaserede diagnoser, der viser en virksomhed, hvilke tillidssignaler der hjælper, hvilke der skader, og hvor den bør investere først. I én Full-inspektion ville en forbedring af de tre svageste signaler løfte en kundes score fra <strong>59 til ca. 77</strong>.",
+  "c5.r1.did": "<li>Gennemfører <strong>Rapid</strong>-inspektioner (42 indikatorer, kun hjemmesiden, ca. en time pr. virksomhed) og <strong>Full</strong>-inspektioner (alle 75 indikatorer plus et verifikationslag)</li><li>Verificerer påstande mod virksomhedsregistre, annoncebiblioteker, anmeldelsesplatforme, LinkedIn og AI-assistenter og registrerer, hvor hvert stykke evidens kommer fra</li><li>Følger en reproducerbar protokol: forankrede 1–5-skalaer, regelbaseret stikprøveudtagning, omvendt scorede indikatorer og markering af alt, som evidensen ikke kan afgøre</li><li>Bidrager til kunderapporter, der rangerer signalerne efter, hvor meget hvert enkelt kan løfte scoren</li>",
+  "c5.r1.ctx": "Paavis måler, hvor troværdige B2B-virksomheder fremstår for købere gennem deres offentlige digitale tilstedeværelse. Metoden omsætter Mayer, Davis og Schoormans model for evne, velvilje og integritet til <strong>75 indikatorer</strong>, 13 signaler og 3 søjler, samlet i en Net Trust Score fra 1 til 99.",
   "c4.l1": "Analyse af brugeradfærd",
   "c4.l2": "Design af engagement-KPI'er",
   "c4.l3": "Spørgeskema- og paneldata",
@@ -238,8 +244,8 @@ I18N.da = {
   "c5.r1.t": "Trust Analyst",
   "c5.r1.m": "Paavis · Deltid · okt. 2026 – nu",
   "c5.r1.b": "<li>Strukturerede tillidsvurderinger med Paavis' Rapid- og Full Inspection-rammeværk.</li><li>Analyserer tillidssignaler, verificerer påstande og finder troværdighedshuller gennem evidensbaseret research.</li><li>Omsætter fund til tillidsscorer og konkrete anbefalinger.</li>",
-  "c5.r2.t": "AI-baseret Voice of Customer-platform",
-  "c5.r2.m": "Selvstændigt projekt · mar. 2026 – nu",
+  "c5.r2.t": "AI-projekter",
+  "c5.r2.m": "Selvstændige projekter · 2026 – i dag",
   "c5.r2.b": "En GenAI-platform, der gør flersproget kundefeedback til evidensbaserede svar med kildehenvisninger: RAG med hybrid søgning og et LangGraph-workflow med tre agenter. <strong>92 %</strong> opgavenøjagtighed og <strong>86 %</strong> Recall@5 på 500+ testspørgsmål.",
   "c5.r3.t": "Kinesisklærer (frivillig)",
   "c5.r3.m": "Buddinge Skole · aug. 2026 – nu",
@@ -333,6 +339,12 @@ I18N.da = {
 };
 
 I18N.zh = {
+  "c5.a2.b": "我确定内容、结构和设计方向，再与 AI 编程助手合作编写代码、起草丹麦语和中文翻译，并测试每一处修改。最终完成了一个三语网站：带随滚动变化的旅程地图、电脑和手机端的自动化浏览器测试，以及注重隐私的访问统计，部署在 GitHub Pages 上。",
+  "c5.a2": "<span class=\"pub-k\">项目 2</span> 这个作品集网站：与 AI 编程助手合作完成",
+  "c5.a1": "<span class=\"pub-k\">项目 1</span> AI 客户之声平台",
+  "c5.r1.out": "基于证据的诊断，告诉企业哪些信任信号在加分、哪些在减分，以及应该优先投入在哪里。在一次完整检查中，补齐最弱的三个信号就能让客户的分数从 <strong>59 提升到约 77</strong>。",
+  "c5.r1.did": "<li>完成<strong>快速检查</strong>（42 个指标，仅看官网，每家公司约一小时）和<strong>完整检查</strong>（全部 75 个指标，并增加外部核实）</li><li>对照公司注册信息、广告库、点评平台、LinkedIn 和 AI 助手的回答核实公司宣称，并记录每条证据的来源</li><li>遵循可复现的评估流程：锚定的 1–5 分量表、按规则抽样、反向计分指标，证据不足时标记待核实</li><li>参与撰写客户报告，按每个信号能带来的分数提升排序</li>",
+  "c5.r1.ctx": "Paavis 通过 B2B 公司公开的数字信息，衡量它们在买家眼中是否可信。方法把 Mayer、Davis 和 Schoorman 的“能力–善意–诚信”信任模型转化为 <strong>75 个指标</strong>、13 个信号和 3 个支柱，最终汇总为 1–99 分的 Net Trust Score。",
   "c4.l1": "用户行为分析",
   "c4.l2": "用户参与与 KPI 设计",
   "c4.l3": "问卷与面板数据",
@@ -566,8 +578,8 @@ I18N.zh = {
   "c5.r1.t": "信任分析师",
   "c5.r1.m": "Paavis · 兼职 · 2026.10 – 至今",
   "c5.r1.b": "<li>使用 Paavis 快速评估和完整评估框架进行结构化的信任评估。</li><li>通过循证研究分析信任信号、核实声明、发现可信度缺口。</li><li>将评估结果转化为信任评分和可执行的建议。</li>",
-  "c5.r2.t": "AI 驱动的客户之声平台",
-  "c5.r2.m": "独立项目 · 2026.03 – 至今",
+  "c5.r2.t": "AI 项目",
+  "c5.r2.m": "独立项目 · 2026 至今",
   "c5.r2.b": "一个生成式 AI 平台，把多语言的客户反馈转化为附带引用、有据可查的回答：混合检索的 RAG，加上由三个智能体组成的 LangGraph 工作流。在 500+ 条测试问题上达到 <strong>92%</strong> 的任务准确率和 <strong>86%</strong> 的 Recall@5。",
   "c5.r3.t": "中文老师（志愿者）",
   "c5.r3.m": "Buddinge Skole · 2026.08 – 至今",

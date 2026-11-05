@@ -380,3 +380,5 @@ h2 { font-size: clamp(1.9rem, 3.4vw, 2.8rem); margin-bottom: 1rem; }
 .pub-note { display: inline-block; font-size: .72rem; font-weight: 600; color: #8c3a27; background: var(--route-soft); border-radius: 999px; padding: .1rem .55rem; margin-top: .3rem; }
 .pub-teach { font-size: .92rem; color: var(--ink-2); padding: .2rem .2rem 0; }
 .pub-k { display: block; font-size: .72rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--route); margin-bottom: .15rem; }
+.pub-body { padding: .7rem .9rem .9rem; font-size: .93rem; color: var(--ink-2); }
+.pub-body .text-link { margin-top: .5rem; }
