@@ -5,6 +5,10 @@
 window.I18N = window.I18N || {};
 
 I18N.da = {
+  "c4.r4.b": "<li>Afhandling: <em>Always connected and still lonely: linking WeChat use to well-being and mental health.</em> <strong>Sobresaliente Cum Laude.</strong></li><li>Studie 1 (<strong>1.224</strong> brugere): EFA reducerede 27 items til fem motiver; regression og mediering viste, at tilknytning forbinder motiv og tilfredshed.</li><li>Studie 2: et panel i tre bølger (jul. 2023 – mar. 2024) og en ny WeChat-adfærdsskala med fem faktorer, valideret med CFA og målingsinvarians; cross-lagged panelmodeller, longitudinel mediering og multigruppeanalyse efter Big Five-træk.</li><li>Tidsforbrug havde ingen stabil effekt over tid, men specifik adfærd havde: interaktion mindskede ensomhed, tillid var den centrale mekanisme, og personlighed kunne endda vende effekterne. <a href=\"work/phd-research.html\">Læs casen →</a></li>",
+  "c4.r4.m": "Universidad de Salamanca · 2020 – 2025",
+  "c4.r4.t": "Ph.d. i samfundsvidenskab · Mediepsykologi",
+  "c4.r1.ctx": "Adfærdsforskning i Audiovisual Content Observatory (OCA): hvordan folk bruger sociale platforme, og hvordan brugen hænger sammen med tilfredshed og trivsel.",
   "sk.g4.also": "Også: funnel og fastholdelse, A/B-test, Google Analytics, interessentkommunikation",
   "sk.g4.k3": "Segmentering",
   "sk.g4.k2": "Attribution og ROI",
@@ -215,14 +219,14 @@ I18N.da = {
   "c3.r2.b": "<li>Nr. <strong>1 / 11</strong> (GPA 3,92 / 4,0). Pris for fremragende speciale og udmærkelse som fremragende studerende, 2019. CCTV-legat, 2018.</li><li>Creative Industries Summer School, University of Westminster, London (2017).</li>",
 
   "c4.place": "Salamanca, Spanien · 2020 – 2025",
-  "c4.title": "Hvad driver egentlig tilfredshed?",
+  "c4.title": "Mere end brugstid: hvad brugerne gør, og hvordan de har det",
   "c4.story": "<p>Jeg flyttede til Spanien for at tage en ph.d. med et meget forretningsrelevant spørgsmål: platforme måler, hvor ofte og hvor længe folk bruger dem, men <em>forudsiger de tal egentlig, hvordan brugerne har det?</em></p><p>Efter fem år, to spørgeskemaundersøgelser og et panel i tre bølger var mit svar: for det meste ikke.</p>",
-  "c4.quote": "<em>Hvorfor</em> folk bruger en platform, forudsiger tilfredshed langt bedre end <em>hvor ofte</em> de bruger den.",
-  "c4.r1.t": "Ph.d.-forsker &amp; dataanalytiker",
-  "c4.r1.m": "Universidad de Salamanca · okt. 2020 – jun. 2025",
+  "c4.quote": "Hvad brugerne <em>gør</em>, betyder mere end hvor længe de bliver – og hvordan de <em>har det</em>, former, hvad de gør bagefter.",
+  "c4.r1.t": "Forsker og dataanalytiker",
+  "c4.r1.m": "Universidad de Salamanca · Fuldtid · okt. 2020 – jun. 2025",
   "c4.r1.q": "Afhandling: <em>Always connected and still lonely: linking WeChat use to well-being and mental health.</em> Hvilke motiver og hvilken adfærd betyder noget, hvilken vej går effekterne, og for hvem?",
-  "c4.r1.did": "<li>Ejede hele dataflowet: design, indsamling, validering, analyse og rapportering</li><li>Studie 1 (<strong>1.224</strong> brugere): EFA reducerede 27 items til 5 motiver; regression og mediering viste, at tilknytning forbinder motiv og tilfredshed</li><li>Studie 2: et panel i tre bølger (<strong>1.671</strong> deltagere, 670 i alle bølger, jul. 2023 – mar. 2024) og en ny WeChat-adfærdsskala med fem faktorer, valideret med CFA og målingsinvarians</li><li>Cross-lagged panelmodeller, longitudinel mediering (social kapital) og multigruppeanalyse efter Big Five-træk i SPSS og Mplus</li>",
-  "c4.r1.out": "<strong>Sobresaliente Cum Laude.</strong> Tidsforbrug havde ingen stabil effekt over tid; specifik adfærd havde (interaktion mindskede ensomhed), tillid var den centrale mekanisme, og personlighed kunne endda vende effekterne. <a href=\"work/phd-research.html\">Læs casen →</a>",
+  "c4.r1.did": "<li>Gennemførte store undersøgelser af brugeradfærd fra start til slut: spørgeskemadesign, dataindsamling med eksterne panelleverandører, rensning, validering og dokumentation</li><li>National undersøgelse med <strong>1.224</strong> brugere: motiver forklarede tilfredshed bedre end målinger af tid og hyppighed</li><li>Panel i tre bølger med <strong>1.671</strong> deltagere for at skelne adfærd med reel betydning fra vildledende brugsmålinger og finde ud af, hvilken vej effekterne går mellem brugernes trivsel og deres engagement</li><li>Statistisk modellering i SPSS og Mplus; præsenterede resultaterne for akademiske og erhvervsrettede publikummer</li>",
+  "c4.r1.out": "Adfærdsbaserede målinger gav skarpere brugerindsigt end traditionelle brugsindikatorer – det samme valg, produktteams står over for, når de vælger engagement-KPI'er.",
   "c4.r2.t": "Publikationer, konferencer og undervisning",
   "c4.r2.b": "<li>3 fagfællebedømte artikler i 2023, bl.a. i <em>IJERPH</em> og <em>Digital Health</em>, samt en sammenligning af aktiv brug af WeChat og Weibo og trivsel (2023) og et litteraturreview om unges brug af sociale medier (2024–2025).</li><li>Oplæg på International Communication Association i Paris (2022) og Toronto (2023): <strong>ICA Emerging Scholar Award</strong>, 2022. Tredjepræmie ved Medicine, Humanity and Media International Conference, 2023.</li><li>Paper på European Communication Conference i <strong>Aarhus</strong> (2022), mit første indblik i dansk forskning.</li><li>Underviste online i kommunikationsteori for <strong>500+</strong> universitetsstuderende over 20 måneder.</li>",
 
@@ -327,6 +331,10 @@ I18N.da = {
 };
 
 I18N.zh = {
+  "c4.r4.b": "<li>论文：<em>Always connected and still lonely: linking WeChat use to well-being and mental health.</em>（永远在线却依然孤独：微信使用与心理健康）<strong>Sobresaliente Cum Laude。</strong></li><li>研究一（<strong>1,224</strong> 名用户）：探索性因子分析把 27 个题项归为五类动机；回归和中介分析显示依恋连接了动机与满意度。</li><li>研究二：三波追踪面板（2023.07 – 2024.03），开发五因子微信行为量表并通过 CFA 和测量不变性检验；采用交叉滞后面板模型、纵向中介和大五人格多组比较。</li><li>使用时长随时间没有稳定影响，具体行为则有：互动降低孤独感，信任是关键机制，人格特质甚至会让影响方向反转。<a href=\"work/phd-research.html\">查看项目详情 →</a></li>",
+  "c4.r4.m": "萨拉曼卡大学 · 2020 – 2025",
+  "c4.r4.t": "社会科学博士 · 媒介心理学",
+  "c4.r1.ctx": "在视听内容观察中心（OCA）做用户行为研究：人们如何使用社交平台，以及这种使用与满意度、心理健康之间的关系。",
   "sk.g4.also": "另有：漏斗与留存分析、A/B 测试、Google Analytics、跨部门沟通",
   "sk.g4.k3": "用户细分",
   "sk.g4.k2": "归因与 ROI",
@@ -537,14 +545,14 @@ I18N.zh = {
   "c3.r2.b": "<li>专业排名 <strong>1 / 11</strong>（GPA 3.92 / 4.0）。2019 年获优秀毕业论文奖和优秀毕业生，2018 年获 CCTV 奖学金。</li><li>伦敦威斯敏斯特大学创意产业暑期学校（2017）。</li>",
 
   "c4.place": "西班牙萨拉曼卡 · 2020 – 2025",
-  "c4.title": "究竟是什么驱动了满意度？",
+  "c4.title": "超越使用时长：用户做什么，以及他们感受如何",
   "c4.story": "<p>我来到西班牙攻读博士，研究一个和商业高度相关的问题：平台都在统计用户用得多频繁、用得多久，但<em>这些数字真的能预测用户的感受吗？</em></p><p>经过五年、两项问卷研究和一个三波面板，我的答案是：大多不能。</p>",
-  "c4.quote": "人们<em>为什么</em>使用一个平台，比<em>多频繁</em>地使用它，更能预测满意度。",
-  "c4.r1.t": "博士研究员与数据分析师",
-  "c4.r1.m": "萨拉曼卡大学 · 2020.10 – 2025.06",
+  "c4.quote": "用户<em>做什么</em>比用多久更重要，而他们的<em>感受</em>也会反过来影响接下来的行为。",
+  "c4.r1.t": "研究员与数据分析师",
+  "c4.r1.m": "萨拉曼卡大学 · 全职 · 2020 年 10 月 – 2025 年 6 月",
   "c4.r1.q": "论文：<em>Always connected and still lonely: linking WeChat use to well-being and mental health.</em>（永远在线却依然孤独：微信使用与心理健康）。哪些动机和行为真正重要？影响方向是什么？对谁起作用？",
-  "c4.r1.did": "<li>负责完整的数据流程：设计、收集、验证、分析和报告</li><li>研究一（<strong>1,224</strong> 名用户）：探索性因子分析把 27 个题项归为 5 类动机；回归和中介分析显示依恋连接了动机与满意度</li><li>研究二：三波追踪面板（<strong>1,671</strong> 名参与者，670 人完成全部三波，2023.07 – 2024.03），并开发五因子微信行为量表，通过 CFA 和测量不变性检验</li><li>在 SPSS 和 Mplus 中完成交叉滞后面板模型、纵向中介（社会资本）和大五人格多组比较</li>",
-  "c4.r1.out": "<strong>Sobresaliente Cum Laude。</strong>使用时长随时间没有稳定影响；具体行为则有（互动降低孤独感），信任是关键机制，人格特质甚至会让影响方向反转。<a href=\"work/phd-research.html\">查看项目详情 →</a>",
+  "c4.r1.did": "<li>端到端负责大规模用户行为研究：问卷设计、与外部样本供应商合作收集数据、清洗、验证和文档整理</li><li>覆盖 <strong>1,224</strong> 名用户的全国调查：使用动机比基于时长或频率的使用指标更能解释满意度</li><li>追踪 <strong>1,671</strong> 名参与者的三波面板研究：区分真正有影响的行为和具有误导性的使用指标，并厘清用户感受与平台互动之间的影响方向</li><li>在 SPSS 和 Mplus 中进行统计建模，并向学术和行业受众汇报研究发现</li>",
+  "c4.r1.out": "基于行为的指标比传统使用指标更能洞察用户，这正是产品团队在选择用户参与 KPI 时面临的问题。",
   "c4.r2.t": "论文、学术会议与教学",
   "c4.r2.b": "<li>2023 年发表 3 篇同行评审期刊论文，包括 <em>IJERPH</em> 和 <em>Digital Health</em>；另有微信与微博主动使用和主观幸福感的比较研究（2023），以及青少年社交媒体使用的文献综述（2024–2025）。</li><li>在国际传播学会（ICA）巴黎年会（2022）和多伦多年会（2023）上做报告，2022 年获 <strong>ICA 新锐学者奖</strong>；2023 年获医学、人文与媒体国际会议三等奖。</li><li>在丹麦<strong>奥胡斯</strong>的欧洲传播学大会上发表论文（2022），第一次接触丹麦学术圈。</li><li>在 20 个月里为 <strong>500+</strong> 名大学生在线讲授传播学理论。</li>",
 
