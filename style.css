@@ -150,6 +150,7 @@ h2 { font-size: clamp(1.9rem, 3.4vw, 2.8rem); margin-bottom: 1rem; }
 .chapter h3 { font-size: clamp(1.5rem, 2.4vw, 2rem); }
 .ch-story { font-size: 1.06rem; color: var(--ink-2); margin-bottom: 1.5rem; }
 .ch-story em { color: var(--teal); }
+.ch-story p + p { margin-top: .75rem; }
 .pull { font-family: var(--serif); font-size: 1.35rem; line-height: 1.4; border-left: 3px solid var(--route); padding: .2rem 0 .2rem 1.2rem; margin: 0 0 1.6rem; color: var(--ink); }
 .pull em { color: var(--route); }
 

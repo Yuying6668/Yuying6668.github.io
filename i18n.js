@@ -169,8 +169,8 @@ I18N.da = {
 
   /* --- hero --- */
   "hero.kicker": "Data- og AI-analytiker · København",
-  "hero.title": "Jeg omsætter adfærdsdata til <em>beslutninger</em> med analyse og AI.",
-  "hero.lead": "Hej, jeg hedder <strong>Rowling (Yuying) Deng</strong> – samfundsforsker af uddannelse, data- og AI-analytiker af profession. Fra en forbrugerundersøgelse i 54 byer til et panelstudie i tre bølger med 1.671 deltagere har jeg brugt min karriere på at måle, <em>hvad der egentlig driver folks valg</em>. I dag omsætter jeg det til analyse- og AI-løsninger – fra KPI-rammer til en RAG-platform med 92 % opgavenøjagtighed – der hjælper teams med at træffe beslutninger hurtigere.",
+  "hero.title": "Jeg omsætter data til <em>beslutninger</em>.",
+  "hero.lead": "Hej, jeg hedder <strong>Rowling (Yuying) Deng</strong> – data- og AI-analytiker med rødder i journalistik og kommunikationsforskning. Jeg har ledet publikums- og forbrugerundersøgelser, taget en ph.d. i brugeradfærd og bygget BI-dashboards og en AI-platform til kundefeedback. Den kombination gør, at jeg kan finde det, der betyder noget i data, og <em>forklare det klart</em> for dem, der skal handle på det.",
   "hero.cta": "Følg rejsen ↓",
   "card.role": "Data- og AI-analytiker · ph.d.",
   "card.loc": "📍 Københavnsområdet, Danmark",
@@ -189,7 +189,7 @@ I18N.da = {
 
   "c1.place": "Suzhou, Kina · 2012 – 2016",
   "c1.title": "Jeg lærte at stille gode spørgsmål",
-  "c1.story": "Jeg læste journalistik og ved siden af anvendt psykologi på Soochow University. Journalistikken lærte mig at stille skarpe spørgsmål og tjekke alle fakta; psykologien lærte mig, <em>hvorfor</em> folk svarer, som de gør. Den kombination præger stadig min tilgang til data.",
+  "c1.story": "<p>Jeg læste journalistik og ved siden af anvendt psykologi på Soochow University.</p><p>Journalistikken lærte mig at stille skarpe spørgsmål og tjekke alle fakta; psykologien lærte mig, <em>hvorfor</em> folk svarer, som de gør. Den kombination præger stadig min tilgang til data.</p>",
   "c1.r1.t": "BA i journalistik · BSc i anvendt psykologi",
   "c1.r1.m": "Soochow University · 2012 – 2016",
   "c1.r1.b": "<li>Dobbeltuddannelse: bachelor i journalistik samt en bachelor i anvendt psykologi.</li><li>Nr. <strong>8 af 66</strong> på journalistik (GPA 3,6 / 4,0, fag-GPA 3,8). Førstepræmie for faglig dygtighed, 2015.</li><li>Bachelorprojekt om, hvordan traditionelle medier tilpassede sig mediekonvergens.</li>",
@@ -205,7 +205,7 @@ I18N.da = {
 
   "c3.place": "Beijing, Kina · 2016 – 2019",
   "c3.title": "Hvor forskning mødte markedet",
-  "c3.story": "I Beijing tog jeg en kandidat i kommunikationspsykologi, mens jeg arbejdede i CC-Smarts center for filmmarkedsanalyse. For første gang havde min forskning kunder: filmselskaber, distributører og tv-stationer, der havde brug for at vide, <em>hvem</em> der ville se med, <em>hvorfor</em>, og hvad de skulle gøre ved det før premieren.",
+  "c3.story": "<p>I Beijing tog jeg en kandidat i kommunikationspsykologi, mens jeg arbejdede i CC-Smarts center for filmmarkedsanalyse.</p><p>For første gang havde min forskning kunder: filmselskaber, distributører og tv-stationer, der havde brug for at vide, <em>hvem</em> der ville se med, <em>hvorfor</em>, og hvad de skulle gøre ved det før premieren.</p>",
   "c3.r1.t": "Marketing-dataanalytiker",
   "c3.r1.ctx": "Publikums- og markedsanalyse for film og tv, herunder et big data-projekt om risikovurdering af film og tv-serier finansieret af Beijing Municipal Social Science Foundation.",
   "c3.r1.did": "<li><em>Legend of the Demon Cat</em> (2017): undersøgelse før premieren med <strong>2.323</strong> vægtede respondenter fra det brede publikum og <strong>656</strong> fans; frekvens-, krydstabel- og faktoranalyse i SPSS</li><li>Fandt, at 93,2 % af fansene valgte alene ud fra skuespillerne, 44 point mere end det brede publikum, og at kun 22,4 % så filmen som en kunstfilm: en kampagne i to spor og en tydeligere genrepositionering</li><li>Vurdering før udsendelse af <em>Abyss Walker</em>, en krimiserie i 42 afsnit til Hunan TV: benchmark af 13 tv- og 14 webserier, scoring af 10 sammenlignelige titler og analyse af Douban-anmeldelser, Baidu Index og Weibo-data</li>",
@@ -216,7 +216,7 @@ I18N.da = {
 
   "c4.place": "Salamanca, Spanien · 2020 – 2025",
   "c4.title": "Hvad driver egentlig tilfredshed?",
-  "c4.story": "Jeg flyttede til Spanien for at tage en ph.d. med et meget forretningsrelevant spørgsmål: platforme måler, hvor ofte og hvor længe folk bruger dem, men <em>forudsiger de tal egentlig, hvordan brugerne har det?</em> Efter fem år, to spørgeskemaundersøgelser og et panel i tre bølger var mit svar: for det meste ikke.",
+  "c4.story": "<p>Jeg flyttede til Spanien for at tage en ph.d. med et meget forretningsrelevant spørgsmål: platforme måler, hvor ofte og hvor længe folk bruger dem, men <em>forudsiger de tal egentlig, hvordan brugerne har det?</em></p><p>Efter fem år, to spørgeskemaundersøgelser og et panel i tre bølger var mit svar: for det meste ikke.</p>",
   "c4.quote": "<em>Hvorfor</em> folk bruger en platform, forudsiger tilfredshed langt bedre end <em>hvor ofte</em> de bruger den.",
   "c4.r1.t": "Ph.d.-forsker &amp; dataanalytiker",
   "c4.r1.m": "Universidad de Salamanca · okt. 2020 – jun. 2025",
@@ -228,7 +228,7 @@ I18N.da = {
 
   "c5.place": "København, Danmark · 2025 – i dag",
   "c5.title": "Hvor det hele samles: BI × AI",
-  "c5.story": "I 2025 blev jeg gift og slog mig ned i Københavnsområdet, hvor min mand arbejder. Danmark føltes hurtigt som hjem: jeg elsker naturen, årstiderne og <em>hygge</em>, og jeg lærer dansk, så jeg kan bygge min karriere her på lang sigt. Fagligt er det her, alt samles: BI giver en organisation én pålidelig kilde til sandheden, og AI gør den rodede, menneskelige del (anmeldelser, undersøgelser, fritekst) søgbar og forklarlig. Jeg arbejder med begge dele og med broen imellem dem.",
+  "c5.story": "<p>I 2025 blev jeg gift og slog mig ned i Københavnsområdet, hvor min mand arbejder. Danmark føltes hurtigt som hjem: jeg elsker naturen, årstiderne og <em>hygge</em>, og jeg lærer dansk, så jeg kan bygge min karriere her på lang sigt.</p><p>Fagligt er det her, alt samles: BI giver en organisation én pålidelig kilde til sandheden, og AI gør den rodede, menneskelige del (anmeldelser, undersøgelser, fritekst) søgbar og forklarlig. Jeg arbejder med begge dele og med broen imellem dem.</p>",
   "c5.r1.t": "Trust Analyst",
   "c5.r1.m": "Paavis · Deltid · okt. 2026 – nu",
   "c5.r1.b": "<li>Strukturerede tillidsvurderinger med Paavis' Rapid- og Full Inspection-rammeværk.</li><li>Analyserer tillidssignaler, verificerer påstande og finder troværdighedshuller gennem evidensbaseret research.</li><li>Omsætter fund til tillidsscorer og konkrete anbefalinger.</li>",
@@ -491,8 +491,8 @@ I18N.zh = {
 
   /* --- hero --- */
   "hero.kicker": "数据与 AI 分析师 · 哥本哈根",
-  "hero.title": "我用数据分析和 AI，把行为数据变成<em>决策</em>。",
-  "hero.lead": "你好，我是<strong>邓堉颖（Rowling Deng）</strong>，社会科学研究出身的数据与 AI 分析师。从覆盖 54 座城市的消费者调研，到追踪 1,671 人的三波面板研究，我一直在用数据回答<em>人们究竟为什么这样选择</em>。现在，我把这种能力转化为数据分析和 AI 解决方案：从 KPI 指标体系，到任务准确率达 92% 的 RAG 平台，帮助团队更快做出决策。",
+  "hero.title": "我把数据变成<em>决策</em>。",
+  "hero.lead": "你好，我是<strong>邓堉颖（Rowling Deng）</strong>，新闻与传播研究出身的数据与 AI 分析师。我主导过受众和消费者调研，完成了用户行为方向的博士研究，也搭建过 BI 仪表板和客户反馈 AI 平台。这样的背景让我既能从数据里找到关键，也能把它<em>清楚地讲给</em>需要做决策的人。",
   "hero.cta": "跟随我的旅程 ↓",
   "card.role": "数据与 AI 分析师 · 博士",
   "card.loc": "📍 丹麦 · 哥本哈根地区",
@@ -511,7 +511,7 @@ I18N.zh = {
 
   "c1.place": "中国苏州 · 2012 – 2016",
   "c1.title": "学会提出好问题",
-  "c1.story": "我在苏州大学主修新闻学，同时辅修应用心理学。新闻学教会我提出尖锐的问题、核实每一个事实；心理学让我明白人们<em>为什么</em>会这样回答。这种组合至今仍决定着我对待数据的方式。",
+  "c1.story": "<p>我在苏州大学主修新闻学，同时辅修应用心理学。</p><p>新闻学教会我提出尖锐的问题、核实每一个事实；心理学让我明白人们<em>为什么</em>会这样回答。这种组合至今仍决定着我对待数据的方式。</p>",
   "c1.r1.t": "新闻学学士 · 应用心理学学士",
   "c1.r1.m": "苏州大学 · 2012 – 2016",
   "c1.r1.b": "<li>双学位：新闻学文学学士，以及应用心理学理学学士。</li><li>新闻学专业排名 <strong>8 / 66</strong>（GPA 3.6 / 4.0，专业 GPA 3.8）。2015 年获学习优秀一等奖。</li><li>毕业论文研究传统主流媒体在媒介融合中的转型。</li>",
@@ -527,7 +527,7 @@ I18N.zh = {
 
   "c3.place": "中国北京 · 2016 – 2019",
   "c3.title": "研究走进市场",
-  "c3.story": "在北京，我一边攻读传播心理学硕士，一边在 CC-Smart 新传智库影视市场研究中心工作。我的研究第一次有了客户：电影公司、发行方和电视台需要在上映前知道<em>谁</em>会看、<em>为什么</em>看，以及该怎么做。",
+  "c3.story": "<p>在北京，我一边攻读传播心理学硕士，一边在 CC-Smart 新传智库影视市场研究中心工作。</p><p>我的研究第一次有了客户：电影公司、发行方和电视台需要在上映前知道<em>谁</em>会看、<em>为什么</em>看，以及该怎么做。</p>",
   "c3.r1.t": "市场数据分析师",
   "c3.r1.ctx": "影视受众与市场研究，包括北京市社会科学基金资助的影视剧风险评估大数据项目。",
   "c3.r1.did": "<li>《妖猫传》（2017）映前调研：加权后普通观众 <strong>2,323</strong> 人、粉丝 <strong>656</strong> 人；在 SPSS 中做频数、交叉和因子分析</li><li>发现 93.2% 的粉丝只看演员阵容做决定，比普通观众高 44 个百分点，且只有 22.4% 的人认为它是文艺片：据此建议双线宣传、明确类型定位</li><li>《深渊行者》（42 集警匪剧）的湖南卫视播前评估：对标 13 部电视剧和 14 部网剧，为 10 部可比剧集打分，并挖掘豆瓣短评、百度指数和微博数据</li>",
@@ -538,7 +538,7 @@ I18N.zh = {
 
   "c4.place": "西班牙萨拉曼卡 · 2020 – 2025",
   "c4.title": "究竟是什么驱动了满意度？",
-  "c4.story": "我来到西班牙攻读博士，研究一个和商业高度相关的问题：平台都在统计用户用得多频繁、用得多久，但<em>这些数字真的能预测用户的感受吗？</em>经过五年、两项问卷研究和一个三波面板，我的答案是：大多不能。",
+  "c4.story": "<p>我来到西班牙攻读博士，研究一个和商业高度相关的问题：平台都在统计用户用得多频繁、用得多久，但<em>这些数字真的能预测用户的感受吗？</em></p><p>经过五年、两项问卷研究和一个三波面板，我的答案是：大多不能。</p>",
   "c4.quote": "人们<em>为什么</em>使用一个平台，比<em>多频繁</em>地使用它，更能预测满意度。",
   "c4.r1.t": "博士研究员与数据分析师",
   "c4.r1.m": "萨拉曼卡大学 · 2020.10 – 2025.06",
@@ -550,7 +550,7 @@ I18N.zh = {
 
   "c5.place": "丹麦哥本哈根 · 2025 – 至今",
   "c5.title": "一切在这里汇合：BI × AI",
-  "c5.story": "2025 年，我结婚并和在丹麦工作的先生一起定居在哥本哈根地区。丹麦很快就成了我的家：我喜欢这里的自然、四季和 <em>hygge</em> 生活，也在学习丹麦语，希望在这里长期发展自己的事业。在工作上，过去的积累都在这里汇合：BI 为组织提供唯一可靠的数据来源，AI 让那些杂乱的、关于人的信息（评论、问卷、开放文本）变得可搜索、可解释。我同时做这两件事，也做连接它们的桥梁。",
+  "c5.story": "<p>2025 年，我结婚并和在丹麦工作的先生一起定居在哥本哈根地区。丹麦很快就成了我的家：我喜欢这里的自然、四季和 <em>hygge</em> 生活，也在学习丹麦语，希望在这里长期发展自己的事业。</p><p>在工作上，过去的积累都在这里汇合：BI 为组织提供唯一可靠的数据来源，AI 让那些杂乱的、关于人的信息（评论、问卷、开放文本）变得可搜索、可解释。我同时做这两件事，也做连接它们的桥梁。</p>",
   "c5.r1.t": "信任分析师",
   "c5.r1.m": "Paavis · 兼职 · 2026.10 – 至今",
   "c5.r1.b": "<li>使用 Paavis 快速评估和完整评估框架进行结构化的信任评估。</li><li>通过循证研究分析信任信号、核实声明、发现可信度缺口。</li><li>将评估结果转化为信任评分和可执行的建议。</li>",
