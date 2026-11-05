@@ -421,3 +421,5 @@ h2 { font-size: clamp(1.9rem, 3.4vw, 2.8rem); margin-bottom: 1rem; }
 .life-list { margin: 0; padding: 0; list-style: none; color: var(--ink-2); font-size: .95rem; display: grid; gap: .5rem; }
 .life-list li { position: relative; padding-left: 1.1rem; }
 .life-list li::before { content: "›"; position: absolute; left: 0; color: var(--route); font-weight: 700; }
+.pub-cert { display: inline-block; margin-left: .35rem; font-size: .78rem; font-weight: 600; color: var(--teal); border: 1px solid var(--line); border-radius: 999px; padding: .05rem .55rem; white-space: nowrap; }
+.pub-cert:hover { color: var(--route); border-color: var(--route); text-decoration: none; }
