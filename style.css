@@ -382,3 +382,9 @@ h2 { font-size: clamp(1.9rem, 3.4vw, 2.8rem); margin-bottom: 1rem; }
 .pub-k { display: block; font-size: .72rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--route); margin-bottom: .15rem; }
 .pub-body { padding: .7rem .9rem .9rem; font-size: .93rem; color: var(--ink-2); }
 .pub-body .text-link { margin-top: .5rem; }
+.rq { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; margin: 1.4rem 0 .4rem; }
+.rq > div { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 1rem 1.2rem; }
+.rq b { display: block; font-size: .92rem; color: var(--route); margin-bottom: .4rem; }
+.case-section .content .rq ul { margin: 0; }
+.case-section .content .rq li { font-size: .93rem; }
+@media (max-width: 900px) { .rq { grid-template-columns: 1fr; } }

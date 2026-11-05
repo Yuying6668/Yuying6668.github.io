@@ -18,7 +18,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,500&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="../style.css?v=202611051319" />
+  <link rel="stylesheet" href="../style.css?v=202611051324" />
 </head>
 <body class="case-research">
 
@@ -69,6 +69,20 @@
           <p data-i18n="phd.s1.p1">Research on social media and mental health is famously contradictory: some studies find it helps, others that it harms.
             One reason is measurement. Most studies count <strong>time spent</strong>, the same vanity metric many dashboards still rely on, and ignore <em>why</em> people use a platform and <em>what</em> they actually do there.</p>
           <p data-i18n="phd.s1.p2">I focused on WeChat, China's "super app" with over 1.3 billion monthly users, and split use into <strong>motivations</strong>, <strong>general use</strong> and <strong>specific behaviours</strong>, tested against several well-being outcomes over time.</p>
+          <div class="rq">
+            <div><b data-i18n="phd.rq1.h">Study 1 · Why do people use WeChat?</b>
+              <ul data-i18n="phd.rq1"><li>Which motivations drive WeChat use?</li><li>Which motivations predict attachment to the app and satisfaction with it?</li><li>Does attachment mediate the link between motivation and satisfaction?</li></ul></div>
+            <div><b data-i18n="phd.rq2.h">Study 2 · What do they do, and how do they feel over time?</b>
+              <ul data-i18n="phd.rq2"><li>Are general and specific WeChat behaviours associated with mental health, and does social capital explain the link?</li><li>Which way do effects run over time: does use shape well-being, or well-being shape use?</li><li>Do trust and shared values mediate these effects over time, and does personality change them?</li></ul></div>
+          </div>
+          <figure class="figure">
+            <img src="../assets/phd-s1-model.jpg" alt="Hypothesised model for Study 1: WeChat motivation predicts satisfaction directly and through attachment to WeChat" width="1094" height="566" loading="lazy" />
+            <figcaption data-i18n="phd.f1"><strong>Study 1 hypothesis.</strong> Motivation predicts satisfaction directly and through attachment to the app.</figcaption>
+          </figure>
+          <figure class="figure">
+            <img src="../assets/phd-s2-design.jpg" alt="Three-wave design for Study 2: WeChat use behaviour at wave 1, social capital at wave 2 and mental health at wave 3, with personality as a moderator" width="1400" height="706" loading="lazy" />
+            <figcaption data-i18n="phd.f2"><strong>Study 2 design.</strong> Behaviour (wave 1), social capital (wave 2) and mental health (wave 3), tested in both directions, with personality as a moderator.</figcaption>
+          </figure>
         </div>
       </div>
 
@@ -85,6 +99,10 @@
             <li>Regression and mediation models showed that all five predicted satisfaction. <strong>Software features</strong>, the practical value of the app, was the strongest driver of both satisfaction and attachment.</li>
             <li><strong>Attachment</strong> to the platform mediated every path. The strongest indirect effect ran from interaction participation, through attachment, to satisfaction.</li>
           </ul>
+          <figure class="figure">
+            <img src="../assets/phd-s1-results.jpg" alt="Mediation results for Study 1: five motivations each predict satisfaction directly and through attachment" width="1400" height="839" loading="lazy" />
+            <figcaption data-i18n="phd.f3"><strong>Result.</strong> All five motivations work through attachment; interaction participation has the strongest indirect effect.</figcaption>
+          </figure>
         </div>
       </div>
 
@@ -105,6 +123,14 @@
             <li>Full <strong>measurement invariance</strong> across waves, so changes over time reflect people, not the questionnaire.</li>
             <li><strong>Cross-lagged panel models</strong> tested which way effects run; <strong>longitudinal mediation</strong> tested social capital (trust, shared values) as the mechanism; <strong>multi-group models</strong> compared high and low groups on each Big Five trait.</li>
           </ul>
+          <figure class="figure">
+            <img src="../assets/phd-s2-cross.jpg" alt="Two cross-sectional mediation models: communicating intensity lowers loneliness through social capital; life-usage intensity raises life satisfaction directly and through social capital" width="1400" height="630" loading="lazy" />
+            <figcaption data-i18n="phd.f4"><strong>Cross-sectional.</strong> Communicating more builds social capital, which lowers loneliness; using WeChat for daily life raises life satisfaction.</figcaption>
+          </figure>
+          <figure class="figure">
+            <img src="../assets/phd-s2-longmed.jpg" alt="Longitudinal mediation over three waves: positive feelings at wave 1 raise trust at wave 2, which raises communicating at wave 3" width="1400" height="786" loading="lazy" />
+            <figcaption data-i18n="phd.f5"><strong>Over time.</strong> Positive feelings at wave 1 build trust at wave 2, which leads to more communicating at wave 3.</figcaption>
+          </figure>
         </div>
       </div>
 
@@ -117,18 +143,24 @@
             <li><strong>Trust was the key mechanism.</strong> Well-being raised later engagement mainly through trust and shared values, not the other way round.</li>
             <li><strong>One size does not fit all.</strong> For some personality traits (agreeableness, conscientiousness) the same behaviour had the <em>opposite</em> effect on well-being.</li>
           </ul>
+          <figure class="figure">
+            <img src="../assets/phd-s2-causal.jpg" alt="Cross-lagged model: interacting at one wave predicts lower loneliness at the next wave" width="1400" height="707" loading="lazy" />
+            <figcaption data-i18n="phd.f6"><strong>Direction of effect.</strong> Users who interacted more felt less lonely three months later.</figcaption>
+          </figure>
           <p class="callout" data-i18n="phd.s4.note">In short: what users do matters more than how much time they spend. That is as true for a product's engagement metrics as it is for mental health.</p>
         </div>
       </div>
 
       <div class="case-section">
-        <h2><small>05</small><span data-i18n="phd.s5">Why it matters beyond academia</span></h2>
+        <h2><small>05</small><span data-i18n="phd.s5">What it means for product teams</span></h2>
         <div class="content">
-          <p data-i18n="phd.s5.p">The thesis is, at heart, a lesson in choosing the right metric. I now bring the same habits to business data: define the construct before the KPI,
-            validate the measure, separate meaningful behaviour from vanity numbers, segment before averaging, and be honest about what the data can and cannot prove.</p>
+          <p data-i18n="phd.s5.p">For anyone building a social or consumer app, the findings translate into concrete product choices:</p>
           <ul data-i18n="phd.s5.ul">
-            <li>3 peer-reviewed journal articles in 2023, including <em>IJERPH</em> and <em>Digital Health</em>.</li>
-            <li>Presentations at the International Communication Association (Paris 2022, Toronto 2023) and the <strong>ICA Emerging Scholar Award</strong>, 2022.</li>
+            <li><strong>Measure what users do, not just time spent.</strong> Time in the app did not predict how users felt over time; interactions such as replies, comments and shared moments did. They make better engagement KPIs.</li>
+            <li><strong>Design for interaction, not passive scrolling.</strong> Features that invite two-way exchange reduced loneliness months later, the kind of engagement that supports healthy long-term retention.</li>
+            <li><strong>Treat trust as a growth lever.</strong> Users who felt trust and shared values engaged more later on, so moderation, privacy controls and safety features drive engagement, not only compliance.</li>
+            <li><strong>Utility builds stickiness.</strong> Practical features (payments, mini programs, everyday services) were the strongest driver of satisfaction and attachment.</li>
+            <li><strong>Segment before you average.</strong> Personality could reverse an effect, so personalisation and A/B tests should look at user segments, not one average user.</li>
           </ul>
           <div class="stack-chips">
             <span>Survey design</span><span>Scale development</span><span>EFA / CFA</span><span>Regression</span><span>Mediation</span><span>Measurement invariance</span><span>Cross-lagged panel models</span><span>Multi-group SEM</span><span>SPSS</span><span>Mplus</span><span>R</span>
@@ -147,7 +179,7 @@
 <footer class="footer">
   <div class="wrap">© 2026 Rowling (Yuying) Deng · <a href="../index.html" style="color:inherit" data-i18n="cs.home">Back to home</a></div>
 </footer>
-<script src="../i18n.js?v=202611051319"></script>
+<script src="../i18n.js?v=202611051324"></script>
 <script data-goatcounter="https://rowlingdeng.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
 </body>
 </html>
