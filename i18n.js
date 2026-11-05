@@ -373,7 +373,23 @@ I18N.da = {
   "bi.s4.p": "I Power BI rensede og formede jeg data i Power Query, satte relationer op i modelvisningen og byggede rapporten:",
   "bi.s4.ul": "<li><strong>Oversigt:</strong> KPI-kort (gennemsnitlig salgspris, antal, samlet omsætning, vækst i % år for år) og opdeling efter land, underkategori, måned og forretningsområde.</li><li><strong>Tidsintelligens:</strong> tendenser og vækst over tid.</li><li><strong>Salgsdetaljer:</strong> drill-down til uddybende spørgsmål.</li><li><strong>Valutafilter</strong>, så markeder kan sammenlignes i én valuta (fx DKK).</li>",
   "bi.s5": "Hvad jeg leverede",
-  "bi.s5.ul": "<li><strong>Kravspecifikation:</strong> salgschefens spørgsmål omsat til mål og attributter med “2W1H”-metoden.</li><li><strong>Datamodel:</strong> en bus-matrix og et stjerneskema, fra konceptuelt til logisk design.</li><li><strong>Data warehouse:</strong> et EDW med SCD Type 1- og Type 2-historik og inkrementel, automatiseret ETL.</li><li><strong>Power BI-rapport:</strong> tre sider (overblik, tidsintelligens og salgsdetaljer), som salgsteamet kan genbruge og udbygge.</li>"
+  "bi.s5.ul": "<li><strong>Kravspecifikation:</strong> salgschefens spørgsmål omsat til mål og attributter med “2W1H”-metoden.</li><li><strong>Datamodel:</strong> en bus-matrix og et stjerneskema, fra konceptuelt til logisk design.</li><li><strong>Data warehouse:</strong> et EDW med SCD Type 1- og Type 2-historik og inkrementel, automatiseret ETL.</li><li><strong>Power BI-rapport:</strong> tre sider (overblik, tidsintelligens og salgsdetaljer), som salgsteamet kan genbruge og udbygge.</li>",
+  "gl.k": "Kort fortalt",
+  "gl.p": "Problem",
+  "gl.a": "Tilgang",
+  "gl.r": "Resultat",
+  "ai.g1": "Kundefeedback lå spredt på tværs af kilder og sprog, så analysen var langsom, manuel og inkonsistent.",
+  "ai.g2": "En GenAI-platform: flersproget indlæsning, hybrid søgning og et LangGraph-workflow med tre agenter, der svarer med kildehenvisninger eller undlader at svare.",
+  "ai.g3": "<strong>92 %</strong> opgavenøjagtighed og <strong>86 %</strong> top-5 retrieval recall på 500+ testspørgsmål, med en live demo.",
+  "bi.g1": "En salgschef havde brug for ét ensartet overblik over salg, mængde og vækst på tværs af lande, produkter og valutaer, men data lå i et ERP-system.",
+  "bi.g2": "Krav med 2W1H-metoden → stjerneskema → data warehouse med SCD-historik og inkrementel ETL → Power BI.",
+  "bi.g3": "En Power BI-rapport på tre sider (overblik, tidsintelligens, salgsdetaljer) oven på et data warehouse, som det næste dashboard kan genbruge.",
+  "phd.g1": "Betyder det mere, hvad brugerne gør i en social app, end hvor længe de bliver?",
+  "phd.g2": "To spørgeskemaundersøgelser med <strong>2.895</strong> WeChat-brugere, en ny motivationsskala med 27 items og et panel i tre bølger, analyseret med SEM og cross-lagged modeller.",
+  "phd.g3": "Interaktion, ikke tidsforbrug, forudsagde mindre ensomhed måneder senere; praktiske funktioner drev tilfredshed og tilknytning.",
+  "au.g1": "Filmselskaber og tv-stationer havde brug for viden om deres publikum, før de brugte penge på premierer og markedsføring.",
+  "au.g2": "En national biografundersøgelse i 54 byer, en førpremiere-undersøgelse af en film (3.494 + 656 fans) og en benchmark af en tv-serie mod sammenlignelige titler.",
+  "au.g3": "Opdelingen af fans og almindeligt publikum førte til en kampagne i to spor; én analyse blev udgivet i Blue Book of China's Film and TV Industry 2018.",
 };
 
 I18N.zh = {
@@ -745,7 +761,23 @@ I18N.zh = {
   "bi.s4.p": "在 Power BI 中，我用 Power Query 清洗和整理数据，在模型视图中建立关系，然后搭建报表：",
   "bi.s4.ul": "<li><strong>概览页</strong>：KPI 卡片（平均售价、销量、总销售额、同比增长）以及按国家、子类、月份和业务线的拆分。</li><li><strong>时间智能</strong>：随时间变化的趋势和增长。</li><li><strong>销售明细</strong>：支持下钻，回答更深入的问题。</li><li><strong>币种筛选器</strong>：可以用同一种货币（如丹麦克朗）比较不同市场。</li>",
   "bi.s5": "我交付了什么",
-  "bi.s5.ul": "<li><strong>需求说明：</strong>用 “2W1H” 方法把销售经理的问题拆解成度量和属性。</li><li><strong>数据模型：</strong>总线矩阵和星型模型，从概念设计到逻辑设计。</li><li><strong>数据仓库：</strong>支持 SCD Type 1 和 Type 2 历史记录的企业数据仓库，以及自动化的增量 ETL。</li><li><strong>Power BI 报表：</strong>三个页面（总览、时间智能、销售明细），销售团队可以直接复用和扩展。</li>"
+  "bi.s5.ul": "<li><strong>需求说明：</strong>用 “2W1H” 方法把销售经理的问题拆解成度量和属性。</li><li><strong>数据模型：</strong>总线矩阵和星型模型，从概念设计到逻辑设计。</li><li><strong>数据仓库：</strong>支持 SCD Type 1 和 Type 2 历史记录的企业数据仓库，以及自动化的增量 ETL。</li><li><strong>Power BI 报表：</strong>三个页面（总览、时间智能、销售明细），销售团队可以直接复用和扩展。</li>",
+  "gl.k": "一览",
+  "gl.p": "问题",
+  "gl.a": "方法",
+  "gl.r": "结果",
+  "ai.g1": "客户反馈分散在不同来源和语言里，分析慢、靠人工，结论也不一致。",
+  "ai.g2": "生成式 AI 平台：多语言数据导入、混合检索，加上三个智能体的 LangGraph 流程，回答都附引用，没有依据就不作答。",
+  "ai.g3": "在 500+ 条测试问题上任务准确率 <strong>92%</strong>，Top-5 检索召回率 <strong>86%</strong>，并有在线演示。",
+  "bi.g1": "销售经理需要一个统一的视图，按国家、产品和币种查看销售额、销量和增长，但数据都在 ERP 系统里。",
+  "bi.g2": "用 2W1H 方法梳理需求 → 星型模型 → 带 SCD 历史记录和增量 ETL 的数据仓库 → Power BI。",
+  "bi.g3": "三页 Power BI 报表（总览、时间智能、销售明细），底层数据仓库可以直接复用到下一个仪表板。",
+  "phd.g1": "用户在社交应用里“做什么”，是否比“待多久”更重要？",
+  "phd.g2": "两项问卷研究，共 <strong>2,895</strong> 名微信用户；开发了 27 题的使用动机量表，并做了三波追踪调查，用结构方程和交叉滞后模型分析。",
+  "phd.g3": "预测几个月后孤独感降低的是互动，而不是使用时长；实用功能是满意度和依恋感的主要来源。",
+  "au.g1": "电影公司和电视台需要在上映、播出和营销投入之前，先了解自己的观众。",
+  "au.g2": "覆盖 54 个城市的全国影院观众调查、一部电影的上映前调研（3,494 份大众问卷 + 656 份粉丝问卷），以及一部电视剧与同类作品的对标评估。",
+  "au.g3": "区分粉丝和大众观众后，宣传改为双线策略；其中一项分析收录于《影视蓝皮书：中国影视产业发展报告（2018）》。",
 };
 
 (function () {

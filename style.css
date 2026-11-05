@@ -8,7 +8,7 @@
   --card: #fffdf9;
   --ink: #1b2433;
   --ink-2: #3a4556;
-  --muted: #6b7484;
+  --muted: #5b6372;
   --line: #e3d9c8;
   --teal: #1f5f5b;
   --teal-soft: #dcebe8;
@@ -36,7 +36,7 @@ em { font-style: italic; }
 
 h1, h2, h3 { font-family: var(--serif); font-weight: 600; letter-spacing: -.01em; line-height: 1.15; }
 h2 { font-size: clamp(1.9rem, 3.4vw, 2.8rem); margin-bottom: 1rem; }
-.kicker { font-size: .78rem; font-weight: 600; letter-spacing: .16em; text-transform: uppercase; color: var(--route); margin-bottom: .8rem; }
+.kicker { font-size: .78rem; font-weight: 600; letter-spacing: .16em; text-transform: uppercase; color: #a7432d; margin-bottom: .8rem; }
 .kicker-light { color: #f3c3b5; }
 .section-lead { color: var(--muted); font-size: 1.08rem; max-width: 640px; }
 
@@ -423,3 +423,16 @@ h2 { font-size: clamp(1.9rem, 3.4vw, 2.8rem); margin-bottom: 1rem; }
 .life-list li::before { content: "›"; position: absolute; left: 0; color: var(--route); font-weight: 700; }
 .pub-cert { display: inline-block; margin-left: .35rem; font-size: .78rem; font-weight: 600; color: var(--teal); border: 1px solid var(--line); border-radius: 999px; padding: .05rem .55rem; white-space: nowrap; }
 .pub-cert:hover { color: var(--route); border-color: var(--route); text-decoration: none; }
+
+/* Case study: at a glance */
+.glance { margin-top: 1.8rem; background: var(--card); border: 1px solid var(--line); border-left: 4px solid var(--route); border-radius: var(--radius); padding: 1.1rem 1.4rem 1.2rem; max-width: 860px; }
+.glance-k { font-size: .72rem; letter-spacing: .14em; text-transform: uppercase; font-weight: 700; color: #a7432d; margin-bottom: .6rem; }
+.glance dl { display: grid; gap: .55rem; margin: 0; }
+.glance dl > div { display: grid; grid-template-columns: 92px 1fr; gap: 1rem; align-items: baseline; }
+.glance dt { font-size: .8rem; font-weight: 700; color: var(--ink); }
+.glance dd { margin: 0; font-size: .95rem; color: var(--ink-2); }
+.glance dd strong { color: var(--ink); }
+@media (max-width: 600px) { .glance dl > div { grid-template-columns: 1fr; gap: .1rem; } }
+
+/* Accessibility: visible keyboard focus */
+a:focus-visible, button:focus-visible, summary:focus-visible { outline: 2px solid var(--teal); outline-offset: 3px; border-radius: 6px; }
