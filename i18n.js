@@ -5,6 +5,8 @@
 window.I18N = window.I18N || {};
 
 I18N.da = {
+  "au.s5.p2": "Den samme tilgang guider stadig mit arbejde i dag: start med beslutningen, beskyt data, segmentér publikum og slut med en klar anbefaling – nu med BI-dashboards og AI.",
+  "au.s5.ul": "<li><strong>Omsatte forretningsspørgsmål til undersøgelser.</strong> Udformede spørgeskemaer og stikprøver til en national undersøgelse i 54 byer og til filmspecifikke undersøgelser, så hvert kundespørgsmål havde data bag sig.</li><li><strong>Beskyttede datakvaliteten.</strong> Stod for daglig kvalitetskontrol i 54 byer, så analyser og kunderapporter byggede på rene, gyldige besvarelser.</li><li><strong>Segmenterede, før jeg anbefalede.</strong> Skilte fans fra det brede publikum og store byer fra mindre, hvilket ændrede rådene: en filmkampagne i to spor og ekspansion med fokus på Tier 1- og Tier 2-byer.</li><li><strong>Kombinerede det, folk siger, med det, de gør.</strong> Holdt spørgeskemasvar op mod billetsalg, andel af forestillinger, Douban-anmeldelser, Baidu Index og Weibo-data for at teste historien fra flere vinkler.</li><li><strong>Leverede beslutningsklart materiale.</strong> Anbefalinger før lancering om positionering, indhold og målgrupper samt analysekapitler i en national brancherapport og et udgivet casestudie i Blue Book 2018.</li>",
   "au.p3.r": "<li>Genren var <strong>sjælden på tv</strong> (13 titler på 19 måneder) med pæne anmeldelser (gennemsnit 6,4 på Douban) og plads til vækst (gennemsnitlig seerandel 0,97).</li><li>Hunan TV's sendeflade havde en gennemsnitlig seerandel på 2,87, men var domineret af kærligheds- og kostumeserier, så en krimiserie ville skille sig ud.</li><li>Analysen af anmeldelser viste, at dette publikum straffer langsomme plots og unødvendige kærlighedshistorier, og det blev min vigtigste anbefaling til indholdet.</li><li>Kernepublikum: mænd på 18–39 år; profilerne af skuespillerne viste, hvordan hver hovedrolle kunne nå en anden aldersgruppe.</li>",
   "au.p3.t": "Forudsige interesse og modtagelse før udsendelse og pege på, hvad der kunne få serien til at lykkes.",
   "au.p3.s": "<em>Abyss Walker</em>, en krimiserie i 42 afsnit om en undercoveragent, var planlagt til Hunan TV's primetime og onlineplatforme.",
@@ -111,8 +113,8 @@ I18N.da = {
   "c5.l6": "KPI-rammer",
   "c5.l7": "Vurdering af tillid og troværdighed",
   "c5.l8": "Bro mellem forretning og teknik",
-  "au.s5.p": "Godt indsigtsarbejde kombinerer det, folk siger (spørgeskemaer), med det, de gør (seer-, søge- og anmeldelsesdata), segmenterer før det tager gennemsnit og ender i en beslutning, som nogen kan handle på. Det er den samme tilgang, jeg bruger i dag til kundefeedback, nu med dashboards og AI.",
-  "au.s5": "Hvad jeg tog med mig",
+  "au.s5.p": "Som marketing-dataanalytiker var min opgave at give filmselskaber, distributører og tv-stationer evidens, de kunne handle på, før pengene blev brugt. På tværs af projekterne bidrog jeg på fem måder:",
+  "au.s5": "Hvad jeg leverede til kunderne",
   "au.s4.ul": "<li>Genren var <strong>sjælden på tv</strong> (13 titler på 19 måneder) med pæne anmeldelser (gennemsnit 6,4 på Douban) og en gennemsnitlig seerandel på 0,97, så der var plads til vækst.</li><li>Hunan TV's sendeflade havde en gennemsnitlig seerandel på 2,87 men var domineret af kærligheds- og kostumeserier, så en krimiserie ville skille sig ud, med et ungt publikum at vinde.</li><li>Analysen af anmeldelser viste, hvad dette publikum straffer: langsomme plots og unødvendige kærlighedshistorier. Det blev min vigtigste anbefaling til indholdet.</li><li>Jeg profilerede kernepublikummet (mænd på 18–39 år) og lavede profiler af skuespillerne ud fra Baidu Index og Weibo, som viste, hvordan hver hovedrolle kunne nå en anden aldersgruppe.</li>",
   "au.s4.pipe": "<div class=\"step\"><b>1 · Marked</b><span>13 tv-serier og 14 webserier i genren</span></div><div class=\"step\"><b>2 · Platform</b><span>19 serier i Hunan TV's primetime</span></div><div class=\"step\"><b>3 · Benchmark</b><span>10 sammenlignelige titler, scoret på emne, plot og cast</span></div><div class=\"step\"><b>4 · Publikum</b><span>Douban-anmeldelser, Baidu Index og Weibo-data</span></div>",
   "au.s4.p1": "For <em>Abyss Walker</em>, en krimiserie i 42 afsnit om en undercoveragent, planlagt til Hunan TV's primetime og onlineplatforme, fik jeg til opgave at forudsige interesse og modtagelse før udsendelse.",
@@ -369,6 +371,8 @@ I18N.da = {
 };
 
 I18N.zh = {
+  "au.s5.p2": "这套方法至今仍指导着我的工作：从决策出发，守住数据质量，细分受众，最后给出清晰的建议，如今再加上 BI 仪表板和 AI。",
+  "au.s5.ul": "<li><strong>把业务问题转化为研究设计。</strong>为覆盖 54 座城市的全国调研和单部影片的专项研究设计问卷和抽样，让客户的每个问题都有数据支撑。</li><li><strong>守住数据质量。</strong>在 54 座城市做每日质控，确保分析和客户报告建立在干净、有效的样本之上。</li><li><strong>先细分，再给建议。</strong>区分粉丝与普通观众、大城市与中小城市，这直接改变了建议内容：电影宣传分两条线，扩张聚焦一二线城市。</li><li><strong>把“说了什么”和“做了什么”结合起来。</strong>把问卷结果与票房、排片、豆瓣短评、百度指数和微博数据相互印证，从多个角度检验结论。</li><li><strong>交付可直接用于决策的成果。</strong>在上映或播出前提出定位、内容和目标受众建议，并参与撰写全国行业报告的分析章节，在 2018 年影视蓝皮书中发表案例分析。</li>",
   "au.p3.r": "<li>该题材在电视上<strong>较为稀缺</strong>（19 个月内仅 13 部），口碑尚可（豆瓣均分 6.4），平均收视率 0.97，还有提升空间。</li><li>湖南卫视黄金档平均收视率 2.87，但以爱情、古装题材为主，警匪剧能形成差异化。</li><li>短评挖掘显示这类观众最反感剧情拖沓和多余的感情戏，这成为我最主要的内容建议。</li><li>核心受众为 18–39 岁男性；主演画像显示各位主演可以分别覆盖不同年龄段的观众。</li>",
   "au.p3.t": "在播出前预测关注度和口碑，并提出能帮助剧集成功的建议。",
   "au.p3.s": "42 集缉毒卧底题材电视剧《深渊行者》计划在湖南卫视黄金档和网络平台同步播出。",
@@ -475,8 +479,8 @@ I18N.zh = {
   "c5.l6": "KPI 指标体系",
   "c5.l7": "可信度评估",
   "c5.l8": "连接业务与技术",
-  "au.s5.p": "好的洞察工作，要把人们<em>说了什么</em>（问卷）和<em>做了什么</em>（收视、搜索、评论数据）结合起来，先细分再平均，最后落到一个可以执行的决策上。这和我今天用仪表板和 AI 分析客户反馈的方法是一样的。",
-  "au.s5": "我的收获",
+  "au.s5.p": "作为营销数据分析师，我的工作是在客户投入资金之前，为电影公司、发行方和电视台提供可以据此行动的证据。在这些项目中，我的贡献主要有五点：",
+  "au.s5": "我为客户交付了什么",
   "au.s4.ul": "<li>该题材在电视上<strong>较为稀缺</strong>（19 个月内仅 13 部），口碑尚可（豆瓣均分 6.4），平均收视率 0.97，还有较大提升空间。</li><li>湖南卫视黄金档平均收视率 2.87，但以爱情、古装题材为主，警匪剧能形成差异化，同时需要争取年轻观众。</li><li>短评挖掘显示，这类观众最反感剧情拖沓和多余的感情戏，这成为我最主要的内容建议。</li><li>我完成了核心受众（18–39 岁男性）画像，并基于百度指数和微博做了主演画像，结果显示各位主演可以分别覆盖不同年龄段的观众。</li>",
   "au.s4.pipe": "<div class=\"step\"><b>1 · 市场</b><span>13 部同类电视剧和 14 部网剧</span></div><div class=\"step\"><b>2 · 平台</b><span>湖南卫视黄金档 19 部剧</span></div><div class=\"step\"><b>3 · 对标</b><span>10 部可比剧集，按题材、剧情、演员打分</span></div><div class=\"step\"><b>4 · 受众</b><span>豆瓣短评、百度指数与微博数据</span></div>",
   "au.s4.p1": "42 集缉毒卧底题材电视剧《深渊行者》计划在湖南卫视黄金档和网络平台同步播出，我负责在播出前预测它的关注度和口碑。",
