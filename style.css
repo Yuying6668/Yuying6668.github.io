@@ -414,7 +414,7 @@ h2 { font-size: clamp(1.9rem, 3.4vw, 2.8rem); margin-bottom: 1rem; }
 .work-visual { background-size: cover; background-position: center; text-shadow: 0 1px 6px rgba(0,0,0,.35); }
 .work-ai .work-visual { background-image: linear-gradient(135deg, rgba(43,35,112,.92), rgba(91,75,183,.82) 60%, rgba(139,126,224,.72)), url(assets/bg-ai.jpg); background-position: center, top left; }
 .v-bi { background-image: linear-gradient(135deg, rgba(27,36,51,.92), rgba(31,95,91,.82) 60%, rgba(79,147,140,.72)), url(assets/bg-bi.jpg); background-position: center, top left; }
-.v-research { background-image: linear-gradient(135deg, rgba(122,46,30,.9), rgba(200,85,61,.8) 60%, rgba(224,138,111,.7)), url(assets/bg-phd.jpg); }
+.v-research { background-image: linear-gradient(180deg, rgba(10,40,24,.55), rgba(10,40,24,.35) 50%, rgba(10,40,24,.6)), url(assets/bg-phd.jpg); }
 .v-audience { background-image: linear-gradient(135deg, rgba(18,63,60,.92), rgba(31,95,91,.82) 60%, rgba(79,147,140,.72)), url(assets/bg-audience.jpg); }
 .work-visual .flow span { background: rgba(255,255,255,.16); backdrop-filter: blur(2px); }
 .work-visual { transition: background-size .4s ease; }
