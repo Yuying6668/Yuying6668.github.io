@@ -255,9 +255,9 @@ I18N.da = {
   "c5.r4.b": "Et komplet BI-projekt: krav → stjerneskema → EDW med automatiseret ETL → Power BI-rapport. Fulgt op i 2026 af <strong>Google Analytics Certification</strong> og forberedelse til <strong>PL-300 Power BI</strong>.",
   "c5.r5.t": "Dataanalytiker",
   "c5.r5.m": "Quwan Animation Technology · Fjernkontrakt · jul. 2025 – sep. 2026",
-  "c5.r5.ctx": "To programmer for en animations- og mobilspilvirksomhed: et standardiseret, automatiseret BI-system på tværs af spilkanaler og omnikanal-attribution for e-handel med anime-IP på Tmall, Douyin og betalte annoncer.",
-  "c5.r5.did": "<li>Var bindeled mellem marketing, spilplanlægning og big data-teams for at definere KPI'er og omsætte forretningsbehov til datakrav</li><li>Analyserede fastholdelse, LTV, ARPU og betalt konvertering som grundlag for kampagne- og kampagneplanlægning</li><li>Automatiserede T+1-rapportering og sparede ca. <strong>4 timer pr. team om ugen</strong></li><li>Byggede rammer for attribution og budgetevaluering med kanal-, ROI- og lageranalyse</li>",
-  "c5.r5.out": "<p><strong>1,30 → 1,45</strong> ROI</p><p><strong>−12 %</strong> lavværdi-forbrug</p>",
+  "c5.r5.ctx": "Quwan driver anime-inspirerede mobilspil i samarbejde med spilstudier og står for e-handel med merchandise til et anime-brand. Hvert studie og hver salgskanal leverede data i sit eget format og til sin egen tid, så teams satte rapporterne sammen i hånden.",
+  "c5.r5.did": "<li>Byggede pipelinen fra rå spil-logs til et lagdelt datavarehus (ODS → DWD → DWS) med Python og Hive SQL, med fælles kanal- og server-mapping og inkrementelle partitioner til data, der kommer for sent</li><li>Designede genbrugelige FineBI-dashboards til alle spil: tragt for brugerakkvisition, dag 1/3/7-fastholdelse, LTV7/LTV30, ARPU og betalingskonvertering</li><li>Til salg af merchandise på Tmall og Douyin samlede jeg trafik, ordrer og annonceforbrug i MySQL og byggede en 7-dages last-click-attributionsmodel med SQL-vinduesfunktioner</li><li>Byggede et Tableau-dashboard, der viser kanal-ROI side om side med lageromsætning pr. SKU, med automatiske advarsler om varer med lav beholdning og langsomt salg</li>",
+  "c5.r5.out": "<p><strong>T+1</strong>-rapporter før kl. 9, ca. 4 timer sparet pr. team om ugen</p><p><strong>+1,2 point</strong> dag 1-fastholdelse efter at have fundet et frafald på 15,2 % i introduktionen</p><p><strong>1,30 → 1,45</strong> i ROI efter at have flyttet 12 % af budgettet fra svage kanaler</p>",
 
   /* --- work --- */
   "work.kicker": "Udvalgte projekter",
@@ -589,9 +589,9 @@ I18N.zh = {
   "c5.r4.b": "一个端到端的 BI 项目：需求 → 星型模型 → 带自动化 ETL 的企业数据仓库 → Power BI 报表。2026 年又完成了 <strong>Google Analytics 认证</strong>和 <strong>PL-300 Power BI</strong> 备考课程。",
   "c5.r5.t": "数据分析师",
   "c5.r5.m": "Quwan Animation Technology · 远程合同 · 2025.07 – 2026.09",
-  "c5.r5.ctx": "为一家动画与手游公司做两个项目：跨游戏渠道的标准化自动 BI 系统，以及动漫 IP 电商在天猫、抖音和广告投放上的全渠道归因。",
-  "c5.r5.did": "<li>连接市场、游戏策划和大数据团队，定义 KPI，把业务需求转化为数据需求</li><li>分析留存、LTV、ARPU 和付费转化，支持活动和推广规划</li><li>实现 T+1 报表自动化，每个团队每周节省约 <strong>4 小时</strong></li><li>搭建归因和预算评估框架，完成渠道、ROI 和库存分析</li>",
-  "c5.r5.out": "<p><strong>1.30 → 1.45</strong> ROI</p><p><strong>−12%</strong> 低效投放</p>",
+  "c5.r5.ctx": "趣玩联运多款二次元手游，并代运营某国漫 IP 周边电商。各研发商和销售渠道的数据格式、上报时间都不统一，运营团队长期靠人工导表拼接报表。",
+  "c5.r5.did": "<li>用 Python 和 Hive SQL 搭建从原始游戏日志到分层数仓（ODS → DWD → DWS）的链路，建立统一的渠道与区服映射，用增量分区解决研发商数据延迟上报的问题</li><li>在 FineBI 设计多项目复用的看板模板：获客漏斗、次留/3 留/7 留、LTV7/LTV30、ARPU 和付费转化</li><li>针对天猫和抖音的周边销售，用 MySQL 整合流量、订单和广告消耗，并用 SQL 窗口函数实现 7 天末次点击归因模型</li><li>在 Tableau 搭建把渠道 ROI 与 SKU 库存周转放在一起的看板，对库存紧张和滞销商品自动预警</li>",
+  "c5.r5.out": "<p><strong>T+1</strong> 报表每天 9 点前产出，每个项目组每周节省约 4 小时</p><p>定位新手引导 15.2% 的流失后，次留提升 <strong>1.2 个百分点</strong></p><p>把 12% 的预算从低效渠道调出后，ROI 从 <strong>1.30 提升到 1.45</strong></p>",
 
   /* --- work --- */
   "work.kicker": "精选项目",

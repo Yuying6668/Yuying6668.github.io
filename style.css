@@ -168,7 +168,7 @@ h2 { font-size: clamp(1.9rem, 3.4vw, 2.8rem); margin-bottom: 1rem; }
 .role-body ul li::before { content: "›"; position: absolute; left: 0; color: var(--route); font-weight: 700; }
 .role-grid { display: grid; grid-template-columns: 1fr; gap: 1rem; }
 .role-grid h4 { font-size: .72rem; letter-spacing: .12em; text-transform: uppercase; color: var(--teal); margin-bottom: .35rem; }
-.mini-metrics { display: flex; gap: .6rem; flex-wrap: wrap; }
+.mini-metrics { display: grid; gap: .5rem; }
 .mini-metrics p { background: var(--teal-soft); border-radius: 10px; padding: .5rem .8rem; font-size: .85rem; }
 .mini-metrics strong { font-family: var(--serif); font-size: 1.2rem; color: var(--teal); margin-right: .2rem; }
 
