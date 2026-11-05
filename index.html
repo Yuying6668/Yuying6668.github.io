@@ -25,7 +25,7 @@
     "alternateName": ["Yuying Deng", "邓堉颖"],
     "jobTitle": "BI & AI Analyst",
     "url": "https://yuying6668.github.io/",
-    "image": "https://yuying6668.github.io/assets/profile.jpg",
+    "image": "https://yuying6668.github.io/assets/avatar.jpg",
     "email": "mailto:rowlingdengyy@gmail.com",
     "address": { "@type": "PostalAddress", "addressLocality": "Copenhagen", "addressCountry": "DK" },
     "alumniOf": ["University of Salamanca", "Communication University of China", "Soochow University"],
@@ -37,7 +37,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,500&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="style.css?v=202611051343" />
+  <link rel="stylesheet" href="style.css?v=202611051348" />
 </head>
 <body>
 
@@ -82,7 +82,8 @@
         </ul>
       </div>
       <aside class="hero-card">
-        <img src="assets/profile.jpg" alt="Portrait of Rowling Deng" width="467" height="640" />
+        <div class="hc-cover" aria-hidden="true"></div>
+        <img class="hc-avatar" src="assets/avatar.jpg" alt="Portrait of Rowling Deng" width="600" height="600" />
         <div class="hero-card-body">
           <p class="hc-name" data-i18n="hc.name">Rowling Deng</p>
           <p class="hc-role" data-i18n="card.role">Data &amp; AI Analyst · PhD</p>
@@ -532,8 +533,11 @@
           </div>
         </article>
         <article class="work-card work-bi">
-          <a class="work-visual work-visual-img" href="work/bi-case.html" aria-label="Open the BI case study">
-            <img src="assets/powerbi-dashboard.jpg" alt="Power BI sales overview dashboard" loading="lazy" width="1200" height="667" />
+          <a class="work-visual v-bi" href="work/bi-case.html" aria-label="Open the BI case study">
+            <div class="flow">
+              <span>ERP</span><i>→</i><span data-i18n="flow.b2">Star schema</span><i>→</i><span>EDW + ETL</span><i>→</i><span>Power BI</span>
+            </div>
+            <div class="work-big"><strong>3</strong> <span data-i18n="flow.pages">report pages for sales</span></div>
           </a>
           <div class="work-body">
             <span class="tag tag-bi">BI · Data engineering · 2025–2026</span>
@@ -606,7 +610,12 @@
         </div>
         <div class="life-card">
           <h3 data-i18n="life.vol.t">🧒 Volunteer Chinese teacher</h3>
-          <p data-i18n="life.vol.d">Since August 2026 I've taught a weekend Pinyin class for six-year-olds at a local Chinese school: game-based lessons, practice sheets for home and a lot of colouring pencils. The children are also very patient with my Danish.</p>
+          <ul class="life-list">
+            <li data-i18n="life.vol.1">Plan and teach a weekly Saturday Pinyin class for six-year-olds at a Chinese school in Copenhagen (since August 2026).</li>
+            <li data-i18n="life.vol.2">Follow a learning path from single vowels to full syllables, plus one basic character a week practised in the tián-zì grid.</li>
+            <li data-i18n="life.vol.3">Make game-based materials: 19 “Pinyin run” game videos, flashcards, tone and colouring sheets, and weekly homework for home practice.</li>
+            <li data-i18n="life.vol.4">Built <em>YY Pinyin</em>, a small web app for the class: pinyin lookup with audio, a weekly lesson log and a homework preview for parents.</li>
+          </ul>
         </div>
         <div class="life-card">
           <h3 data-i18n="life.off.t">🎹 Off the clock</h3>
@@ -678,8 +687,8 @@
   <div class="wrap">© 2026 Rowling (Yuying) Deng · Suzhou → Artux → Beijing → Salamanca → Copenhagen</div>
 </footer>
 
-<script src="i18n.js?v=202611051343"></script>
-<script src="script.js?v=202611051343"></script>
+<script src="i18n.js?v=202611051348"></script>
+<script src="script.js?v=202611051348"></script>
 <script data-goatcounter="https://rowlingdeng.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
 </body>
 </html>
