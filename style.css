@@ -406,3 +406,7 @@ h2 { font-size: clamp(1.9rem, 3.4vw, 2.8rem); margin-bottom: 1rem; }
 .back-home:hover { border-color: var(--route); color: var(--route); }
 .pub-links { display: flex; flex-wrap: wrap; gap: .4rem 1.4rem; margin-top: .3rem; }
 .pub-links .text-link { margin-top: .3rem; }
+.star-compact { margin-bottom: .6rem; background: var(--card); }
+.star-compact .star-row { grid-template-columns: 112px minmax(0, 1fr); gap: .9rem; padding: .75rem .9rem; }
+.star-compact .star-v p { font-size: .92rem; }
+@media (max-width: 900px) { .star-compact .star-row { grid-template-columns: 1fr; gap: .35rem; } }
