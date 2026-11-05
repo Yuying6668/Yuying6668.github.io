@@ -27,7 +27,7 @@
 html { scroll-behavior: smooth; scroll-padding-top: calc(var(--topbar) + 12px); }
 body { font-family: var(--sans); color: var(--ink); background: var(--paper); line-height: 1.6; font-size: 16px; -webkit-font-smoothing: antialiased; overflow-x: hidden; }
 a { color: var(--teal); text-decoration: none; }
-img { max-width: 100%; display: block; }
+img { max-width: 100%; height: auto; display: block; }
 ul, ol { list-style: none; }
 em { font-style: italic; }
 .wrap { width: min(1180px, 92%); margin: 0 auto; }
